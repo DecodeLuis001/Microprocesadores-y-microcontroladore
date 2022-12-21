@@ -1,0 +1,1687 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"9713 /Applications/microchip/mplabx/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8/pic/include/proc/pic18F45K50.h
+[s S431 :2 `uc 1 :2 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S431 . NVCFG PVCFG . TRIGSEL ]
+"9719
+[s S432 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S432 . NVCFG0 NVCFG1 PVCFG0 PVCFG1 ]
+"9725
+[s S433 :3 `uc 1 :1 `uc 1 ]
+[n S433 . . CHSN3 ]
+"9712
+[u S430 `S431 1 `S432 1 `S433 1 ]
+[n S430 . . . . ]
+"9730
+[v _ADCON1bits `VS430 ~T0 @X0 0 e@4033 ]
+"9781
+[s S435 :1 `uc 1 :1 `uc 1 ]
+[n S435 . . GO_NOT_DONE ]
+"9785
+[s S436 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S436 . ADON GO_nDONE CHS ]
+"9790
+[s S437 :1 `uc 1 :1 `uc 1 ]
+[n S437 . . DONE ]
+"9794
+[s S438 :1 `uc 1 :1 `uc 1 ]
+[n S438 . . GO ]
+"9798
+[s S439 :1 `uc 1 :1 `uc 1 ]
+[n S439 . . NOT_DONE ]
+"9802
+[s S440 :1 `uc 1 :1 `uc 1 ]
+[n S440 . . nDONE ]
+"9806
+[s S441 :1 `uc 1 :1 `uc 1 ]
+[n S441 . . GODONE ]
+"9810
+[s S442 :1 `uc 1 :1 `uc 1 ]
+[n S442 . . GO_DONE ]
+"9780
+[u S434 `S435 1 `S436 1 `S437 1 `S438 1 `S439 1 `S440 1 `S441 1 `S442 1 ]
+[n S434 . . . . . . . . . ]
+"9815
+[v _ADCON0bits `VS434 ~T0 @X0 0 e@4034 ]
+"9775
+[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"9636
+[v _ADCON2 `Vuc ~T0 @X0 0 e@4032 ]
+"9870
+[v _ADRESL `Vuc ~T0 @X0 0 e@4035 ]
+"9877
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
+"4626
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
+"5248
+[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
+"12356
+[v _OSCCON `Vuc ~T0 @X0 0 e@4051 ]
+"238
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . ANSA0 ANSA1 ANSA2 ANSA3 . ANSA5 ]
+"237
+[u S15 `S16 1 ]
+[n S15 . . ]
+"247
+[v _ANSELAbits `VS15 ~T0 @X0 0 e@3931 ]
+"5081
+[s S207 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S207 . TRISC0 TRISC1 TRISC2 . TRISC4 TRISC5 TRISC6 TRISC7 ]
+"5091
+[s S208 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S208 . RC0 RC1 RC2 . RC6 RC7 ]
+"5080
+[u S206 `S207 1 `S208 1 ]
+[n S206 . . . ]
+"5100
+[v _TRISCbits `VS206 ~T0 @X0 0 e@3988 ]
+"333
+[s S20 :2 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S20 . . ANSC2 . ANSC6 ANSC7 ]
+"332
+[u S19 `S20 1 ]
+[n S19 . . ]
+"341
+[v _ANSELCbits `VS19 ~T0 @X0 0 e@3933 ]
+"4009
+[s S170 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S170 . LATC0 LATC1 LATC2 . LATC4 LATC5 LATC6 LATC7 ]
+"4019
+[s S171 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S171 . LC0 LC1 LC2 . LC4 LC5 LC6 LC7 ]
+"4008
+[u S169 `S170 1 `S171 1 ]
+[n S169 . . . ]
+"4030
+[v _LATCbits `VS169 ~T0 @X0 0 e@3979 ]
+"4848
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"277
+[v _ANSELB `Vuc ~T0 @X0 0 e@3932 ]
+"3891
+[v _LATB `Vuc ~T0 @X0 0 e@3978 ]
+"4111
+[s S173 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S173 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
+"4121
+[s S174 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S174 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
+"4110
+[u S172 `S173 1 `S174 1 ]
+[n S172 . . . ]
+"4132
+[v _LATDbits `VS172 ~T0 @X0 0 e@3980 ]
+[v F4805 `(v ~T0 @X0 1 tf1`ul ]
+"203 /Applications/microchip/mplabx/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8/pic/include/pic18.h
+[v __delay `JF4805 ~T0 @X0 0 e ]
+[p i __delay ]
+"4105 /Applications/microchip/mplabx/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8/pic/include/proc/pic18F45K50.h
+[v _LATD `Vuc ~T0 @X0 0 e@3980 ]
+"113 /Applications/microchip/xc8/v2.31/pic/include/c99/stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"108 /Applications/microchip/xc8/v2.31/pic/include/c99/math.h
+[; ;/Applications/microchip/xc8/v2.31/pic/include/c99/math.h: 108: float ceilf(float);
+[v _ceilf `(f ~T0 @X0 0 ef1`f ]
+"111 /Applications/microchip/xc8/v2.31/pic/include/c99/stdio.h
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"174 /Applications/microchip/xc8/v2.31/pic/include/c99/math.h
+[; ;/Applications/microchip/xc8/v2.31/pic/include/c99/math.h: 174: float floorf(float);
+[v _floorf `(f ~T0 @X0 0 ef1`f ]
+"12445 /Applications/microchip/mplabx/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8/pic/include/proc/pic18F45K50.h
+[s S557 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S557 . T0PS PSA T0SE T0CS T08BIT TMR0ON ]
+"12453
+[s S558 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S558 . T0PS0 T0PS1 T0PS2 ]
+"12444
+[u S556 `S557 1 `S558 1 ]
+[n S556 . . . ]
+"12459
+[v _T0CONbits `VS556 ~T0 @X0 0 e@4053 ]
+"12516
+[v _TMR0L `Vuc ~T0 @X0 0 e@4054 ]
+"13231
+[s S612 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S612 . IOCIF INT0IF TMR0IF IOCIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"13241
+[s S613 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S613 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"13251
+[s S614 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S614 . . GIEL GIEH ]
+"13230
+[u S611 `S612 1 `S613 1 `S614 1 ]
+[n S611 . . . . ]
+"13257
+[v _INTCONbits `VS611 ~T0 @X0 0 e@4082 ]
+"2907
+[s S129 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S129 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"2917
+[s S130 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S130 . AN0 AN1 AN2 AN3 T0CKI AN4 OSC2 ]
+"2926
+[s S131 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S131 . . VREFM VREFP . LVDIN ]
+"2933
+[s S132 :5 `uc 1 :1 `uc 1 ]
+[n S132 . . HLVDIN ]
+"2937
+[s S133 :1 `uc 1 :6 `uc 1 :1 `uc 1 ]
+[n S133 . ULPWUIN . RJPU ]
+"2906
+[u S128 `S129 1 `S130 1 `S131 1 `S132 1 `S133 1 ]
+[n S128 . . . . . . ]
+"2943
+[v _PORTAbits `VS128 ~T0 @X0 0 e@3968 ]
+"3169
+[s S139 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S139 . RC0 RC1 RC2 . RC4 RC5 RC6 RC7 ]
+"3179
+[s S140 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S140 . T1OSO T1OSI CCP1 . TX RX ]
+"3187
+[s S141 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S141 . T13CKI . P1A . CK DT ]
+"3195
+[s S142 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S142 . . CCP2 PA1 ]
+"3200
+[s S143 :1 `uc 1 :1 `uc 1 ]
+[n S143 . . PA2 ]
+"3168
+[u S138 `S139 1 `S140 1 `S141 1 `S142 1 `S143 1 ]
+[n S138 . . . . . . ]
+"3205
+[v _PORTCbits `VS138 ~T0 @X0 0 e@3970 ]
+"3053
+[v _PORTB `Vuc ~T0 @X0 0 e@3969 ]
+[p mainexit ]
+"2 SensorValoresExactos.c
+[p x FOSC  =  INTOSCIO   ]
+"3
+[p x WDTEN  =  OFF       ]
+"4
+[p x MCLRE  =  ON        ]
+"5
+[p x LVP  =  OFF         ]
+"6
+[p x ICPRT  =  OFF       ]
+"9
+[p x CFGPLLEN  =  OFF    ]
+"12
+[p x FCMEN  =  OFF       ]
+"13
+[p x IESO  =  OFF        ]
+"16
+[p x nPWRTEN  =  OFF     ]
+"17
+[p x nLPBOR  =  OFF      ]
+"20
+[p x ICPRT  =  OFF       ]
+"21
+[p x XINST  =  OFF       ]
+"24
+[p x CP0  =  OFF         ]
+"25
+[p x CP1  =  OFF         ]
+"26
+[p x CP2  =  OFF         ]
+"27
+[p x CP3  =  OFF         ]
+"30
+[p x CPB  =  OFF         ]
+"31
+[p x CPD  =  OFF         ]
+"34
+[p x WRT0  =  OFF        ]
+"35
+[p x WRT1  =  OFF        ]
+"36
+[p x WRT2  =  OFF        ]
+"37
+[p x WRT3  =  OFF        ]
+"40
+[p x WRTC  =  OFF        ]
+"41
+[p x WRTB  =  OFF        ]
+"42
+[p x WRTD  =  OFF        ]
+"45
+[p x EBTR0  =  OFF       ]
+"46
+[p x EBTR1  =  OFF       ]
+"47
+[p x EBTR2  =  OFF       ]
+"48
+[p x EBTR3  =  OFF       ]
+"51
+[p x EBTRB  =  OFF       ]
+"54 /Applications/microchip/mplabx/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8/pic/include/proc/pic18F45K50.h
+[; <" SRCON1 equ 0F57h ;# ">
+"116
+[; <" SRCON0 equ 0F58h ;# ">
+"187
+[; <" CCPTMRS equ 0F59h ;# ">
+"214
+[; <" VREGCON equ 0F5Ah ;# ">
+"234
+[; <" ANSELA equ 0F5Bh ;# ">
+"279
+[; <" ANSELB equ 0F5Ch ;# ">
+"329
+[; <" ANSELC equ 0F5Dh ;# ">
+"363
+[; <" ANSELD equ 0F5Eh ;# ">
+"425
+[; <" ANSELE equ 0F5Fh ;# ">
+"457
+[; <" UCON equ 0F60h ;# ">
+"508
+[; <" USTAT equ 0F61h ;# ">
+"568
+[; <" UCFG equ 0F62h ;# ">
+"647
+[; <" UADDR equ 0F63h ;# ">
+"711
+[; <" UIE equ 0F64h ;# ">
+"767
+[; <" UIR equ 0F65h ;# ">
+"823
+[; <" UEIE equ 0F66h ;# ">
+"874
+[; <" UEIR equ 0F67h ;# ">
+"925
+[; <" UFRM equ 0F68h ;# ">
+"932
+[; <" UFRML equ 0F68h ;# ">
+"1010
+[; <" UFRMH equ 0F69h ;# ">
+"1050
+[; <" UEP0 equ 0F6Ah ;# ">
+"1158
+[; <" UEP1 equ 0F6Bh ;# ">
+"1266
+[; <" UEP2 equ 0F6Ch ;# ">
+"1374
+[; <" UEP3 equ 0F6Dh ;# ">
+"1482
+[; <" UEP4 equ 0F6Eh ;# ">
+"1590
+[; <" UEP5 equ 0F6Fh ;# ">
+"1698
+[; <" UEP6 equ 0F70h ;# ">
+"1806
+[; <" UEP7 equ 0F71h ;# ">
+"1914
+[; <" UEP8 equ 0F72h ;# ">
+"1990
+[; <" UEP9 equ 0F73h ;# ">
+"2066
+[; <" UEP10 equ 0F74h ;# ">
+"2142
+[; <" UEP11 equ 0F75h ;# ">
+"2218
+[; <" UEP12 equ 0F76h ;# ">
+"2294
+[; <" UEP13 equ 0F77h ;# ">
+"2370
+[; <" UEP14 equ 0F78h ;# ">
+"2446
+[; <" UEP15 equ 0F79h ;# ">
+"2522
+[; <" SLRCON equ 0F7Ah ;# ">
+"2566
+[; <" VREFCON2 equ 0F7Bh ;# ">
+"2618
+[; <" VREFCON1 equ 0F7Ch ;# ">
+"2679
+[; <" VREFCON0 equ 0F7Dh ;# ">
+"2739
+[; <" PMD0 equ 0F7Eh ;# ">
+"2821
+[; <" PMD1 equ 0F7Fh ;# ">
+"2903
+[; <" PORTA equ 0F80h ;# ">
+"3055
+[; <" PORTB equ 0F81h ;# ">
+"3165
+[; <" PORTC equ 0F82h ;# ">
+"3307
+[; <" PORTD equ 0F83h ;# ">
+"3428
+[; <" PORTE equ 0F84h ;# ">
+"3547
+[; <" WPUB equ 0F85h ;# ">
+"3609
+[; <" IOCB equ 0F86h ;# ">
+"3648
+[; <" IOCC equ 0F87h ;# ">
+"3705
+[; <" CTMUICON equ 0F88h ;# ">
+"3781
+[; <" LATA equ 0F89h ;# ">
+"3893
+[; <" LATB equ 0F8Ah ;# ">
+"4005
+[; <" LATC equ 0F8Bh ;# ">
+"4107
+[; <" LATD equ 0F8Ch ;# ">
+"4219
+[; <" LATE equ 0F8Dh ;# ">
+"4271
+[; <" CTMUCONL equ 0F8Eh ;# ">
+"4276
+[; <" CTMUCON1 equ 0F8Eh ;# ">
+"4425
+[; <" CTMUCONH equ 0F8Fh ;# ">
+"4430
+[; <" CTMUCON0 equ 0F8Fh ;# ">
+"4581
+[; <" CCPR2 equ 0F90h ;# ">
+"4588
+[; <" CCPR2L equ 0F90h ;# ">
+"4608
+[; <" CCPR2H equ 0F91h ;# ">
+"4628
+[; <" TRISA equ 0F92h ;# ">
+"4633
+[; <" DDRA equ 0F92h ;# ">
+"4850
+[; <" TRISB equ 0F93h ;# ">
+"4855
+[; <" DDRB equ 0F93h ;# ">
+"5072
+[; <" TRISC equ 0F94h ;# ">
+"5077
+[; <" DDRC equ 0F94h ;# ">
+"5250
+[; <" TRISD equ 0F95h ;# ">
+"5255
+[; <" DDRD equ 0F95h ;# ">
+"5472
+[; <" TRISE equ 0F96h ;# ">
+"5477
+[; <" DDRE equ 0F96h ;# ">
+"5588
+[; <" CCP2CON equ 0F97h ;# ">
+"5593
+[; <" ECCP2CON equ 0F97h ;# ">
+"5744
+[; <" CM1CON0 equ 0F98h ;# ">
+"5867
+[; <" CM2CON0 equ 0F99h ;# ">
+"5990
+[; <" CM2CON1 equ 0F9Ah ;# ">
+"6052
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"6122
+[; <" HLVDCON equ 0F9Ch ;# ">
+"6192
+[; <" PIE1 equ 0F9Dh ;# ">
+"6291
+[; <" PIR1 equ 0F9Eh ;# ">
+"6390
+[; <" IPR1 equ 0F9Fh ;# ">
+"6489
+[; <" PIE2 equ 0FA0h ;# ">
+"6588
+[; <" PIR2 equ 0FA1h ;# ">
+"6687
+[; <" IPR2 equ 0FA2h ;# ">
+"6786
+[; <" PIE3 equ 0FA3h ;# ">
+"6859
+[; <" PIR3 equ 0FA4h ;# ">
+"6906
+[; <" IPR3 equ 0FA5h ;# ">
+"6953
+[; <" EECON1 equ 0FA6h ;# ">
+"7019
+[; <" EECON2 equ 0FA7h ;# ">
+"7039
+[; <" EEDATA equ 0FA8h ;# ">
+"7046
+[; <" EEADR equ 0FA9h ;# ">
+"7053
+[; <" RCSTA1 equ 0FABh ;# ">
+"7058
+[; <" RCSTA equ 0FABh ;# ">
+"7259
+[; <" TXSTA1 equ 0FACh ;# ">
+"7264
+[; <" TXSTA equ 0FACh ;# ">
+"7553
+[; <" TXREG1 equ 0FADh ;# ">
+"7558
+[; <" TXREG equ 0FADh ;# ">
+"7591
+[; <" RCREG1 equ 0FAEh ;# ">
+"7596
+[; <" RCREG equ 0FAEh ;# ">
+"7629
+[; <" SPBRG1 equ 0FAFh ;# ">
+"7634
+[; <" SPBRG equ 0FAFh ;# ">
+"7767
+[; <" SPBRGH1 equ 0FB0h ;# ">
+"7772
+[; <" SPBRGH equ 0FB0h ;# ">
+"7905
+[; <" T3CON equ 0FB1h ;# ">
+"8034
+[; <" TMR3 equ 0FB2h ;# ">
+"8041
+[; <" TMR3L equ 0FB2h ;# ">
+"8061
+[; <" TMR3H equ 0FB3h ;# ">
+"8081
+[; <" T3GCON equ 0FB4h ;# ">
+"8212
+[; <" ACTCON equ 0FB5h ;# ">
+"8217
+[; <" STCON equ 0FB5h ;# ">
+"8418
+[; <" ECCP1AS equ 0FB6h ;# ">
+"8552
+[; <" PWM1CON equ 0FB7h ;# ">
+"8557
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"8702
+[; <" BAUDCON1 equ 0FB8h ;# ">
+"8707
+[; <" BAUDCON equ 0FB8h ;# ">
+"8711
+[; <" BAUDCTL equ 0FB8h ;# ">
+"9212
+[; <" PSTR1CON equ 0FB9h ;# ">
+"9288
+[; <" T2CON equ 0FBAh ;# ">
+"9359
+[; <" PR2 equ 0FBBh ;# ">
+"9379
+[; <" TMR2 equ 0FBCh ;# ">
+"9399
+[; <" CCP1CON equ 0FBDh ;# ">
+"9404
+[; <" ECCP1CON equ 0FBDh ;# ">
+"9591
+[; <" CCPR1 equ 0FBEh ;# ">
+"9598
+[; <" CCPR1L equ 0FBEh ;# ">
+"9618
+[; <" CCPR1H equ 0FBFh ;# ">
+"9638
+[; <" ADCON2 equ 0FC0h ;# ">
+"9709
+[; <" ADCON1 equ 0FC1h ;# ">
+"9777
+[; <" ADCON0 equ 0FC2h ;# ">
+"9872
+[; <" ADRESL equ 0FC3h ;# ">
+"9879
+[; <" ADRESH equ 0FC4h ;# ">
+"9886
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"9891
+[; <" SSPCON2 equ 0FC5h ;# ">
+"10240
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"10245
+[; <" SSPCON equ 0FC6h ;# ">
+"10249
+[; <" SSPCON1 equ 0FC6h ;# ">
+"10594
+[; <" SSP1STAT equ 0FC7h ;# ">
+"10599
+[; <" SSPSTAT equ 0FC7h ;# ">
+"11192
+[; <" SSP1ADD equ 0FC8h ;# ">
+"11197
+[; <" SSPADD equ 0FC8h ;# ">
+"11530
+[; <" SSP1BUF equ 0FC9h ;# ">
+"11535
+[; <" SSPBUF equ 0FC9h ;# ">
+"11568
+[; <" SSP1MSK equ 0FCAh ;# ">
+"11573
+[; <" SSPMSK equ 0FCAh ;# ">
+"11706
+[; <" SSP1CON3 equ 0FCBh ;# ">
+"11711
+[; <" SSPCON3 equ 0FCBh ;# ">
+"11828
+[; <" T1GCON equ 0FCCh ;# ">
+"11959
+[; <" T1CON equ 0FCDh ;# ">
+"12088
+[; <" TMR1 equ 0FCEh ;# ">
+"12095
+[; <" TMR1L equ 0FCEh ;# ">
+"12115
+[; <" TMR1H equ 0FCFh ;# ">
+"12135
+[; <" RCON equ 0FD0h ;# ">
+"12268
+[; <" WDTCON equ 0FD1h ;# ">
+"12296
+[; <" OSCCON2 equ 0FD2h ;# ">
+"12358
+[; <" OSCCON equ 0FD3h ;# ">
+"12441
+[; <" T0CON equ 0FD5h ;# ">
+"12511
+[; <" TMR0 equ 0FD6h ;# ">
+"12518
+[; <" TMR0L equ 0FD6h ;# ">
+"12538
+[; <" TMR0H equ 0FD7h ;# ">
+"12558
+[; <" STATUS equ 0FD8h ;# ">
+"12629
+[; <" FSR2 equ 0FD9h ;# ">
+"12636
+[; <" FSR2L equ 0FD9h ;# ">
+"12656
+[; <" FSR2H equ 0FDAh ;# ">
+"12663
+[; <" PLUSW2 equ 0FDBh ;# ">
+"12683
+[; <" PREINC2 equ 0FDCh ;# ">
+"12703
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"12723
+[; <" POSTINC2 equ 0FDEh ;# ">
+"12743
+[; <" INDF2 equ 0FDFh ;# ">
+"12763
+[; <" BSR equ 0FE0h ;# ">
+"12770
+[; <" FSR1 equ 0FE1h ;# ">
+"12777
+[; <" FSR1L equ 0FE1h ;# ">
+"12797
+[; <" FSR1H equ 0FE2h ;# ">
+"12804
+[; <" PLUSW1 equ 0FE3h ;# ">
+"12824
+[; <" PREINC1 equ 0FE4h ;# ">
+"12844
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"12864
+[; <" POSTINC1 equ 0FE6h ;# ">
+"12884
+[; <" INDF1 equ 0FE7h ;# ">
+"12904
+[; <" WREG equ 0FE8h ;# ">
+"12924
+[; <" FSR0 equ 0FE9h ;# ">
+"12931
+[; <" FSR0L equ 0FE9h ;# ">
+"12951
+[; <" FSR0H equ 0FEAh ;# ">
+"12958
+[; <" PLUSW0 equ 0FEBh ;# ">
+"12978
+[; <" PREINC0 equ 0FECh ;# ">
+"12998
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"13018
+[; <" POSTINC0 equ 0FEEh ;# ">
+"13038
+[; <" INDF0 equ 0FEFh ;# ">
+"13058
+[; <" INTCON3 equ 0FF0h ;# ">
+"13150
+[; <" INTCON2 equ 0FF1h ;# ">
+"13227
+[; <" INTCON equ 0FF2h ;# ">
+"13344
+[; <" PROD equ 0FF3h ;# ">
+"13351
+[; <" PRODL equ 0FF3h ;# ">
+"13371
+[; <" PRODH equ 0FF4h ;# ">
+"13391
+[; <" TABLAT equ 0FF5h ;# ">
+"13413
+[; <" TBLPTR equ 0FF6h ;# ">
+"13420
+[; <" TBLPTRL equ 0FF6h ;# ">
+"13440
+[; <" TBLPTRH equ 0FF7h ;# ">
+"13460
+[; <" TBLPTRU equ 0FF8h ;# ">
+"13469
+[; <" PCLAT equ 0FF9h ;# ">
+"13476
+[; <" PC equ 0FF9h ;# ">
+"13483
+[; <" PCL equ 0FF9h ;# ">
+"13503
+[; <" PCLATH equ 0FFAh ;# ">
+"13523
+[; <" PCLATU equ 0FFBh ;# ">
+"13530
+[; <" STKPTR equ 0FFCh ;# ">
+"13604
+[; <" TOS equ 0FFDh ;# ">
+"13611
+[; <" TOSL equ 0FFDh ;# ">
+"13631
+[; <" TOSH equ 0FFEh ;# ">
+"13651
+[; <" TOSU equ 0FFFh ;# ">
+"78 SensorValoresExactos.c
+[; ;SensorValoresExactos.c: 78: int ADC;
+[v _ADC `i ~T0 @X0 1 e ]
+"79
+[; ;SensorValoresExactos.c: 79: float R_LM35, R_CAD;
+[v _R_LM35 `f ~T0 @X0 1 e ]
+[v _R_CAD `f ~T0 @X0 1 e ]
+"80
+[; ;SensorValoresExactos.c: 80: float temperatura;
+[v _temperatura `f ~T0 @X0 1 e ]
+"81
+[; ;SensorValoresExactos.c: 81: char Valores[16];
+[v _Valores `uc ~T0 @X0 -> 16 `i e ]
+"84
+[; ;SensorValoresExactos.c: 84: int cambio;
+[v _cambio `i ~T0 @X0 1 e ]
+"85
+[; ;SensorValoresExactos.c: 85: int minutos, horas, segundos;
+[v _minutos `i ~T0 @X0 1 e ]
+[v _horas `i ~T0 @X0 1 e ]
+[v _segundos `i ~T0 @X0 1 e ]
+"87
+[; ;SensorValoresExactos.c: 87: int Unidades_Horas, Decenas_Horas, Unidades_Minutos, Decenas_Minutos, Unidades_Segundos, Decenas_Segundos;
+[v _Unidades_Horas `i ~T0 @X0 1 e ]
+[v _Decenas_Horas `i ~T0 @X0 1 e ]
+[v _Unidades_Minutos `i ~T0 @X0 1 e ]
+[v _Decenas_Minutos `i ~T0 @X0 1 e ]
+[v _Unidades_Segundos `i ~T0 @X0 1 e ]
+[v _Decenas_Segundos `i ~T0 @X0 1 e ]
+"90
+[; ;SensorValoresExactos.c: 90: int HORA, MINUTO, SEGUNDO;
+[v _HORA `i ~T0 @X0 1 e ]
+[v _MINUTO `i ~T0 @X0 1 e ]
+[v _SEGUNDO `i ~T0 @X0 1 e ]
+"91
+[; ;SensorValoresExactos.c: 91: int DH=0;
+[v _DH `i ~T0 @X0 1 e ]
+[i _DH
+-> 0 `i
+]
+"92
+[; ;SensorValoresExactos.c: 92: int UH=0;
+[v _UH `i ~T0 @X0 1 e ]
+[i _UH
+-> 0 `i
+]
+"93
+[; ;SensorValoresExactos.c: 93: int DM=0;
+[v _DM `i ~T0 @X0 1 e ]
+[i _DM
+-> 0 `i
+]
+"94
+[; ;SensorValoresExactos.c: 94: int UM=0;
+[v _UM `i ~T0 @X0 1 e ]
+[i _UM
+-> 0 `i
+]
+"95
+[; ;SensorValoresExactos.c: 95: int DS=0;
+[v _DS `i ~T0 @X0 1 e ]
+[i _DS
+-> 0 `i
+]
+"96
+[; ;SensorValoresExactos.c: 96: int US=0;
+[v _US `i ~T0 @X0 1 e ]
+[i _US
+-> 0 `i
+]
+"99
+[; ;SensorValoresExactos.c: 99: short Read_ADC(char canal)
+[v _Read_ADC `(s ~T0 @X0 1 ef1`uc ]
+"100
+[; ;SensorValoresExactos.c: 100: {
+{
+[e :U _Read_ADC ]
+"99
+[; ;SensorValoresExactos.c: 99: short Read_ADC(char canal)
+[v _canal `uc ~T0 @X0 1 r1 ]
+"100
+[; ;SensorValoresExactos.c: 100: {
+[f ]
+"102
+[; ;SensorValoresExactos.c: 102:     ADCON1bits.PVCFG = 0b00;
+[e = . . _ADCON1bits 0 1 -> -> 0 `i `uc ]
+"103
+[; ;SensorValoresExactos.c: 103:     ADCON1bits.NVCFG = 0b00;
+[e = . . _ADCON1bits 0 0 -> -> 0 `i `uc ]
+"105
+[; ;SensorValoresExactos.c: 105:  ADCON0bits.CHS = 0b00000;
+[e = . . _ADCON0bits 1 2 -> -> 0 `i `uc ]
+"106
+[; ;SensorValoresExactos.c: 106:  ADCON0bits.CHS = 0b00010;
+[e = . . _ADCON0bits 1 2 -> -> 2 `i `uc ]
+"108
+[; ;SensorValoresExactos.c: 108:  switch(canal)
+[e $U 640  ]
+"109
+[; ;SensorValoresExactos.c: 109:  {
+{
+"110
+[; ;SensorValoresExactos.c: 110:         case 0:
+[e :U 641 ]
+"111
+[; ;SensorValoresExactos.c: 111:             ADCON0 = 0b00000010;
+[e = _ADCON0 -> -> 2 `i `uc ]
+"116
+[; ;SensorValoresExactos.c: 116:             break;
+[e $U 639  ]
+"117
+[; ;SensorValoresExactos.c: 117:  }
+}
+[e $U 639  ]
+[e :U 640 ]
+[e [\ -> _canal `i , $ -> 0 `i 641
+ 639 ]
+[e :U 639 ]
+"122
+[; ;SensorValoresExactos.c: 122:  ADCON2 = 0b00100001;
+[e = _ADCON2 -> -> 33 `i `uc ]
+"136
+[; ;SensorValoresExactos.c: 136:  ADCON0bits.ADON = 1;
+[e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
+"138
+[; ;SensorValoresExactos.c: 138:     ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 3 1 -> -> 1 `i `uc ]
+"139
+[; ;SensorValoresExactos.c: 139:     while(ADCON0bits.GO);
+[e $U 642  ]
+[e :U 643 ]
+[e :U 642 ]
+[e $ != -> . . _ADCON0bits 3 1 `i -> 0 `i 643  ]
+[e :U 644 ]
+"141
+[; ;SensorValoresExactos.c: 141:     return ADRESL + ADRESH*256;
+[e ) -> + -> _ADRESL `i * -> _ADRESH `i -> 256 `i `s ]
+[e $UE 638  ]
+"147
+[; ;SensorValoresExactos.c: 147: }
+[e :UE 638 ]
+}
+"149
+[; ;SensorValoresExactos.c: 149: void Configuracion(void)
+[v _Configuracion `(v ~T0 @X0 1 ef ]
+"150
+[; ;SensorValoresExactos.c: 150: {
+{
+[e :U _Configuracion ]
+[f ]
+"158
+[; ;SensorValoresExactos.c: 158:     TRISA = 0b11111111;
+[e = _TRISA -> -> 255 `i `uc ]
+"159
+[; ;SensorValoresExactos.c: 159:  TRISD = 0b00000000;
+[e = _TRISD -> -> 0 `i `uc ]
+"163
+[; ;SensorValoresExactos.c: 163:     OSCCON = 0b01101100;
+[e = _OSCCON -> -> 108 `i `uc ]
+"171
+[; ;SensorValoresExactos.c: 171:     ANSELAbits.ANSA3 = 0;
+[e = . . _ANSELAbits 0 3 -> -> 0 `i `uc ]
+"172
+[; ;SensorValoresExactos.c: 172:     ANSELAbits.ANSA1 = 0;
+[e = . . _ANSELAbits 0 1 -> -> 0 `i `uc ]
+"173
+[; ;SensorValoresExactos.c: 173:     ANSELAbits.ANSA5 = 0;
+[e = . . _ANSELAbits 0 5 -> -> 0 `i `uc ]
+"174
+[; ;SensorValoresExactos.c: 174:     TRISCbits.RC6 = 0;
+[e = . . _TRISCbits 1 4 -> -> 0 `i `uc ]
+"175
+[; ;SensorValoresExactos.c: 175:     ANSELCbits.ANSC6 = 0;
+[e = . . _ANSELCbits 0 3 -> -> 0 `i `uc ]
+"176
+[; ;SensorValoresExactos.c: 176:     LATCbits.LATC6=0;
+[e = . . _LATCbits 0 6 -> -> 0 `i `uc ]
+"179
+[; ;SensorValoresExactos.c: 179:     TRISB = 0;
+[e = _TRISB -> -> 0 `i `uc ]
+"180
+[; ;SensorValoresExactos.c: 180:     ANSELB = 0;
+[e = _ANSELB -> -> 0 `i `uc ]
+"181
+[; ;SensorValoresExactos.c: 181:     LATB = 0;
+[e = _LATB -> -> 0 `i `uc ]
+"182
+[; ;SensorValoresExactos.c: 182: }
+[e :UE 645 ]
+}
+"186
+[; ;SensorValoresExactos.c: 186: void Set_DATA()
+[v _Set_DATA `(v ~T0 @X0 1 ef ]
+"187
+[; ;SensorValoresExactos.c: 187: {
+{
+[e :U _Set_DATA ]
+[f ]
+"188
+[; ;SensorValoresExactos.c: 188:     LATDbits.LD2 = 1;
+[e = . . _LATDbits 1 2 -> -> 1 `i `uc ]
+"189
+[; ;SensorValoresExactos.c: 189:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"190
+[; ;SensorValoresExactos.c: 190:     LATDbits.LD2 = 0;
+[e = . . _LATDbits 1 2 -> -> 0 `i `uc ]
+"192
+[; ;SensorValoresExactos.c: 192:     return;
+[e $UE 646  ]
+"193
+[; ;SensorValoresExactos.c: 193: }
+[e :UE 646 ]
+}
+"196
+[; ;SensorValoresExactos.c: 196: void Get_DATA(char data)
+[v _Get_DATA `(v ~T0 @X0 1 ef1`uc ]
+"197
+[; ;SensorValoresExactos.c: 197: {
+{
+[e :U _Get_DATA ]
+"196
+[; ;SensorValoresExactos.c: 196: void Get_DATA(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"197
+[; ;SensorValoresExactos.c: 197: {
+[f ]
+"198
+[; ;SensorValoresExactos.c: 198:     LATDbits.LD4 = data;
+[e = . . _LATDbits 1 4 -> _data `uc ]
+"199
+[; ;SensorValoresExactos.c: 199:     LATDbits.LD5 = data >> 1;
+[e = . . _LATDbits 1 5 -> >> -> _data `i -> 1 `i `uc ]
+"200
+[; ;SensorValoresExactos.c: 200:     LATDbits.LD6 = data >> 2;
+[e = . . _LATDbits 1 6 -> >> -> _data `i -> 2 `i `uc ]
+"201
+[; ;SensorValoresExactos.c: 201:     LATDbits.LD7 = data >> 3;
+[e = . . _LATDbits 1 7 -> >> -> _data `i -> 3 `i `uc ]
+"203
+[; ;SensorValoresExactos.c: 203:     Set_DATA();
+[e ( _Set_DATA ..  ]
+"204
+[; ;SensorValoresExactos.c: 204:     return;
+[e $UE 647  ]
+"205
+[; ;SensorValoresExactos.c: 205: }
+[e :UE 647 ]
+}
+"207
+[; ;SensorValoresExactos.c: 207: void LCD_COMANDOS(char comando)
+[v _LCD_COMANDOS `(v ~T0 @X0 1 ef1`uc ]
+"208
+[; ;SensorValoresExactos.c: 208: {
+{
+[e :U _LCD_COMANDOS ]
+"207
+[; ;SensorValoresExactos.c: 207: void LCD_COMANDOS(char comando)
+[v _comando `uc ~T0 @X0 1 r1 ]
+"208
+[; ;SensorValoresExactos.c: 208: {
+[f ]
+"209
+[; ;SensorValoresExactos.c: 209:     LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"210
+[; ;SensorValoresExactos.c: 210:     Get_DATA((comando >> 4)&0b00001111);
+[e ( _Get_DATA (1 -> & >> -> _comando `i -> 4 `i -> 15 `i `uc ]
+"211
+[; ;SensorValoresExactos.c: 211:     Get_DATA((comando)&0b00001111);
+[e ( _Get_DATA (1 -> & -> _comando `i -> 15 `i `uc ]
+"213
+[; ;SensorValoresExactos.c: 213:     return;
+[e $UE 648  ]
+"214
+[; ;SensorValoresExactos.c: 214: }
+[e :UE 648 ]
+}
+"216
+[; ;SensorValoresExactos.c: 216: void putch(char data)
+[v _putch `(v ~T0 @X0 1 ef1`uc ]
+"217
+[; ;SensorValoresExactos.c: 217: {
+{
+[e :U _putch ]
+"216
+[; ;SensorValoresExactos.c: 216: void putch(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"217
+[; ;SensorValoresExactos.c: 217: {
+[f ]
+"218
+[; ;SensorValoresExactos.c: 218:     char Activa;
+[v _Activa `uc ~T0 @X0 1 a ]
+"219
+[; ;SensorValoresExactos.c: 219:     Activa = data & 0xF0;
+[e = _Activa -> & -> _data `i -> 240 `i `uc ]
+"220
+[; ;SensorValoresExactos.c: 220:     LATD = Activa | 0x05;
+[e = _LATD -> | -> _Activa `i -> 5 `i `uc ]
+"222
+[; ;SensorValoresExactos.c: 222:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"223
+[; ;SensorValoresExactos.c: 223:     LATD = Activa | 0x01;
+[e = _LATD -> | -> _Activa `i -> 1 `i `uc ]
+"225
+[; ;SensorValoresExactos.c: 225:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"226
+[; ;SensorValoresExactos.c: 226:     Activa = (unsigned char)(data << 4);
+[e = _Activa -> -> << -> _data `i -> 4 `i `uc `uc ]
+"227
+[; ;SensorValoresExactos.c: 227:     LATD = Activa | 0x05;
+[e = _LATD -> | -> _Activa `i -> 5 `i `uc ]
+"228
+[; ;SensorValoresExactos.c: 228:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"229
+[; ;SensorValoresExactos.c: 229:     LATD = Activa | 0x01;
+[e = _LATD -> | -> _Activa `i -> 1 `i `uc ]
+"230
+[; ;SensorValoresExactos.c: 230: }
+[e :UE 649 ]
+}
+"232
+[; ;SensorValoresExactos.c: 232: void putcm(char data)
+[v _putcm `(v ~T0 @X0 1 ef1`uc ]
+"233
+[; ;SensorValoresExactos.c: 233: {
+{
+[e :U _putcm ]
+"232
+[; ;SensorValoresExactos.c: 232: void putcm(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"233
+[; ;SensorValoresExactos.c: 233: {
+[f ]
+"234
+[; ;SensorValoresExactos.c: 234:     char Activa;
+[v _Activa `uc ~T0 @X0 1 a ]
+"235
+[; ;SensorValoresExactos.c: 235:     Activa = data & 0xF0;
+[e = _Activa -> & -> _data `i -> 240 `i `uc ]
+"236
+[; ;SensorValoresExactos.c: 236:     LATD = Activa | 0x04;
+[e = _LATD -> | -> _Activa `i -> 4 `i `uc ]
+"237
+[; ;SensorValoresExactos.c: 237:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"238
+[; ;SensorValoresExactos.c: 238:     LATD = Activa;
+[e = _LATD -> _Activa `uc ]
+"239
+[; ;SensorValoresExactos.c: 239:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"240
+[; ;SensorValoresExactos.c: 240:     Activa = (unsigned char)(data << 4);
+[e = _Activa -> -> << -> _data `i -> 4 `i `uc `uc ]
+"241
+[; ;SensorValoresExactos.c: 241:     LATD = Activa | 0x04;
+[e = _LATD -> | -> _Activa `i -> 4 `i `uc ]
+"242
+[; ;SensorValoresExactos.c: 242:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"243
+[; ;SensorValoresExactos.c: 243:     LATD = Activa;
+[e = _LATD -> _Activa `uc ]
+"244
+[; ;SensorValoresExactos.c: 244: }
+[e :UE 650 ]
+}
+"246
+[; ;SensorValoresExactos.c: 246: void InicializaLCD(void)
+[v _InicializaLCD `(v ~T0 @X0 1 ef ]
+"247
+[; ;SensorValoresExactos.c: 247: {
+{
+[e :U _InicializaLCD ]
+[f ]
+"248
+[; ;SensorValoresExactos.c: 248:     _delay((unsigned long)((50)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"249
+[; ;SensorValoresExactos.c: 249:     putcm(0x02);
+[e ( _putcm (1 -> -> 2 `i `uc ]
+"250
+[; ;SensorValoresExactos.c: 250:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"252
+[; ;SensorValoresExactos.c: 252:     putcm(0x28);
+[e ( _putcm (1 -> -> 40 `i `uc ]
+"253
+[; ;SensorValoresExactos.c: 253:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"255
+[; ;SensorValoresExactos.c: 255:     putcm(0x2C);
+[e ( _putcm (1 -> -> 44 `i `uc ]
+"256
+[; ;SensorValoresExactos.c: 256:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"258
+[; ;SensorValoresExactos.c: 258:     putcm(0x0C);
+[e ( _putcm (1 -> -> 12 `i `uc ]
+"259
+[; ;SensorValoresExactos.c: 259:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"261
+[; ;SensorValoresExactos.c: 261:     putcm(0x06);
+[e ( _putcm (1 -> -> 6 `i `uc ]
+"262
+[; ;SensorValoresExactos.c: 262:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"264
+[; ;SensorValoresExactos.c: 264:     putcm(0x80);
+[e ( _putcm (1 -> -> 128 `i `uc ]
+"265
+[; ;SensorValoresExactos.c: 265:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"266
+[; ;SensorValoresExactos.c: 266: }
+[e :UE 651 ]
+}
+"270
+[; ;SensorValoresExactos.c: 270: void SensorLM35(void)
+[v _SensorLM35 `(v ~T0 @X0 1 ef ]
+"271
+[; ;SensorValoresExactos.c: 271: {
+{
+[e :U _SensorLM35 ]
+[f ]
+"274
+[; ;SensorValoresExactos.c: 274:     ADC = Read_ADC(0)/64;
+[e = _ADC / -> ( _Read_ADC (1 -> -> 0 `i `uc `i -> 64 `i ]
+"275
+[; ;SensorValoresExactos.c: 275:     R_LM35 = 500.00001 / 1024;
+[e = _R_LM35 -> / .500.00001 -> -> 1024 `i `d `f ]
+"279
+[; ;SensorValoresExactos.c: 279:     temperatura = ADC*R_LM35;
+[e = _temperatura * -> _ADC `f _R_LM35 ]
+"280
+[; ;SensorValoresExactos.c: 280:     putcm(0x80);
+[e ( _putcm (1 -> -> 128 `i `uc ]
+"281
+[; ;SensorValoresExactos.c: 281:     if(temperatura - (int)temperatura >= 0.5)
+[e $ ! >= -> - _temperatura -> -> _temperatura `i `f `d .0.5 653  ]
+"282
+[; ;SensorValoresExactos.c: 282:     {
+{
+"283
+[; ;SensorValoresExactos.c: 283:         sprintf(Valores, "Temp. = %3.2f %cC",ceilf(temperatura), 0xDF);
+[e ( _sprintf (1 , , (. , &U _Valores :s 1C -> ( _ceilf (1 _temperatura `d -> 223 `i ]
+"284
+[; ;SensorValoresExactos.c: 284:         _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"285
+[; ;SensorValoresExactos.c: 285:         printf(Valores);
+[e ( _printf -> &U _Valores `*Cuc ]
+"286
+[; ;SensorValoresExactos.c: 286:         _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"287
+[; ;SensorValoresExactos.c: 287:     }
+}
+[e $U 654  ]
+"288
+[; ;SensorValoresExactos.c: 288:     else
+[e :U 653 ]
+"289
+[; ;SensorValoresExactos.c: 289:     {
+{
+"290
+[; ;SensorValoresExactos.c: 290:         sprintf(Valores, "Temp. = %3.2f %cC",floorf(temperatura), 0xDF);
+[e ( _sprintf (1 , , (. , &U _Valores :s 2C -> ( _floorf (1 _temperatura `d -> 223 `i ]
+"291
+[; ;SensorValoresExactos.c: 291:         _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"292
+[; ;SensorValoresExactos.c: 292:         printf(Valores);
+[e ( _printf -> &U _Valores `*Cuc ]
+"293
+[; ;SensorValoresExactos.c: 293:         _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"294
+[; ;SensorValoresExactos.c: 294:     }
+}
+[e :U 654 ]
+"295
+[; ;SensorValoresExactos.c: 295: }
+[e :UE 652 ]
+}
+"301
+[; ;SensorValoresExactos.c: 301: void Timer0Configuration(void)
+[v _Timer0Configuration `(v ~T0 @X0 1 ef ]
+"302
+[; ;SensorValoresExactos.c: 302: {
+{
+[e :U _Timer0Configuration ]
+[f ]
+"303
+[; ;SensorValoresExactos.c: 303:     T0CONbits.T08BIT = 1;
+[e = . . _T0CONbits 0 4 -> -> 1 `i `uc ]
+"304
+[; ;SensorValoresExactos.c: 304:     T0CONbits.T0CS = 1;
+[e = . . _T0CONbits 0 3 -> -> 1 `i `uc ]
+"305
+[; ;SensorValoresExactos.c: 305:     T0CONbits.T0SE = 0;
+[e = . . _T0CONbits 0 2 -> -> 0 `i `uc ]
+"306
+[; ;SensorValoresExactos.c: 306:     T0CONbits.PSA = 1;
+[e = . . _T0CONbits 0 1 -> -> 1 `i `uc ]
+"307
+[; ;SensorValoresExactos.c: 307:     T0CONbits.T0PS = 0b000;
+[e = . . _T0CONbits 0 0 -> -> 0 `i `uc ]
+"309
+[; ;SensorValoresExactos.c: 309:     TMR0L = 0xFF;
+[e = _TMR0L -> -> 255 `i `uc ]
+"310
+[; ;SensorValoresExactos.c: 310:     T0CONbits.TMR0ON = 1;
+[e = . . _T0CONbits 0 5 -> -> 1 `i `uc ]
+"313
+[; ;SensorValoresExactos.c: 313:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"314
+[; ;SensorValoresExactos.c: 314:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"315
+[; ;SensorValoresExactos.c: 315:     INTCONbits.TMR0IE = 1;
+[e = . . _INTCONbits 0 5 -> -> 1 `i `uc ]
+"316
+[; ;SensorValoresExactos.c: 316:     INTCONbits.TMR0IF =0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"317
+[; ;SensorValoresExactos.c: 317: }
+[e :UE 655 ]
+}
+"319
+[; ;SensorValoresExactos.c: 319: void Mostrar_Reloj()
+[v _Mostrar_Reloj `(v ~T0 @X0 1 ef ]
+"320
+[; ;SensorValoresExactos.c: 320: {
+{
+[e :U _Mostrar_Reloj ]
+[f ]
+"322
+[; ;SensorValoresExactos.c: 322:  Decenas_Horas = horas / 10;
+[e = _Decenas_Horas / _horas -> 10 `i ]
+"323
+[; ;SensorValoresExactos.c: 323:  Unidades_Horas = horas % 10;
+[e = _Unidades_Horas % _horas -> 10 `i ]
+"324
+[; ;SensorValoresExactos.c: 324:  Decenas_Minutos = minutos / 10;
+[e = _Decenas_Minutos / _minutos -> 10 `i ]
+"325
+[; ;SensorValoresExactos.c: 325:  Unidades_Minutos = minutos % 10;
+[e = _Unidades_Minutos % _minutos -> 10 `i ]
+"326
+[; ;SensorValoresExactos.c: 326:  Decenas_Segundos = segundos / 10;
+[e = _Decenas_Segundos / _segundos -> 10 `i ]
+"327
+[; ;SensorValoresExactos.c: 327:  Unidades_Segundos = segundos % 10;
+[e = _Unidades_Segundos % _segundos -> 10 `i ]
+"333
+[; ;SensorValoresExactos.c: 333:     if(horas < 12)
+[e $ ! < _horas -> 12 `i 657  ]
+"334
+[; ;SensorValoresExactos.c: 334:     {
+{
+"335
+[; ;SensorValoresExactos.c: 335:         putcm(0xC2);
+[e ( _putcm (1 -> -> 194 `i `uc ]
+"336
+[; ;SensorValoresExactos.c: 336:         printf("%d%d:%d%d:%d%d A.M",Decenas_Horas, Unidades_Horas, Decenas_Minutos, Unidades_Minutos, Decenas_Segundos, Unidades_Segundos);
+[e ( _printf , , , , , , (. :s 3C _Decenas_Horas _Unidades_Horas _Decenas_Minutos _Unidades_Minutos _Decenas_Segundos _Unidades_Segundos ]
+"337
+[; ;SensorValoresExactos.c: 337:  }
+}
+[e $U 658  ]
+"338
+[; ;SensorValoresExactos.c: 338:     else
+[e :U 657 ]
+"339
+[; ;SensorValoresExactos.c: 339:     {
+{
+"340
+[; ;SensorValoresExactos.c: 340:         putcm(0xC2);
+[e ( _putcm (1 -> -> 194 `i `uc ]
+"341
+[; ;SensorValoresExactos.c: 341:         printf("%d%d:%d%d:%d%d P.M",Decenas_Horas, Unidades_Horas, Decenas_Minutos, Unidades_Minutos, Decenas_Segundos, Unidades_Segundos);
+[e ( _printf , , , , , , (. :s 4C _Decenas_Horas _Unidades_Horas _Decenas_Minutos _Unidades_Minutos _Decenas_Segundos _Unidades_Segundos ]
+"342
+[; ;SensorValoresExactos.c: 342:     }
+}
+[e :U 658 ]
+"343
+[; ;SensorValoresExactos.c: 343: }
+[e :UE 656 ]
+}
+"345
+[; ;SensorValoresExactos.c: 345: void Cronometro()
+[v _Cronometro `(v ~T0 @X0 1 ef ]
+"346
+[; ;SensorValoresExactos.c: 346: {
+{
+[e :U _Cronometro ]
+[f ]
+"347
+[; ;SensorValoresExactos.c: 347:     Mostrar_Reloj();
+[e ( _Mostrar_Reloj ..  ]
+"348
+[; ;SensorValoresExactos.c: 348:     segundos = segundos + 1;
+[e = _segundos + _segundos -> 1 `i ]
+"349
+[; ;SensorValoresExactos.c: 349:  if(segundos > 59)
+[e $ ! > _segundos -> 59 `i 660  ]
+"350
+[; ;SensorValoresExactos.c: 350:  {
+{
+"351
+[; ;SensorValoresExactos.c: 351:   segundos = 0;
+[e = _segundos -> 0 `i ]
+"352
+[; ;SensorValoresExactos.c: 352:   minutos = minutos + 1;
+[e = _minutos + _minutos -> 1 `i ]
+"353
+[; ;SensorValoresExactos.c: 353:   if(minutos > 59)
+[e $ ! > _minutos -> 59 `i 661  ]
+"354
+[; ;SensorValoresExactos.c: 354:   {
+{
+"355
+[; ;SensorValoresExactos.c: 355:    minutos = 0;
+[e = _minutos -> 0 `i ]
+"356
+[; ;SensorValoresExactos.c: 356:    horas = horas + 1;
+[e = _horas + _horas -> 1 `i ]
+"357
+[; ;SensorValoresExactos.c: 357:    if(horas > 23)
+[e $ ! > _horas -> 23 `i 662  ]
+"358
+[; ;SensorValoresExactos.c: 358:    {
+{
+"359
+[; ;SensorValoresExactos.c: 359:     horas=0;
+[e = _horas -> 0 `i ]
+"360
+[; ;SensorValoresExactos.c: 360:             }
+}
+[e :U 662 ]
+"361
+[; ;SensorValoresExactos.c: 361:   }
+}
+[e :U 661 ]
+"362
+[; ;SensorValoresExactos.c: 362:  }
+}
+[e :U 660 ]
+"363
+[; ;SensorValoresExactos.c: 363:     _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"364
+[; ;SensorValoresExactos.c: 364: }
+[e :UE 659 ]
+}
+"368
+[; ;SensorValoresExactos.c: 368: void Alarma()
+[v _Alarma `(v ~T0 @X0 1 ef ]
+"369
+[; ;SensorValoresExactos.c: 369: {
+{
+[e :U _Alarma ]
+[f ]
+"370
+[; ;SensorValoresExactos.c: 370:     if(PORTAbits.RA1 == 0)
+[e $ ! == -> . . _PORTAbits 0 1 `i -> 0 `i 664  ]
+"371
+[; ;SensorValoresExactos.c: 371:     {
+{
+"372
+[; ;SensorValoresExactos.c: 372:         PORTCbits.RC6 = 0;
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+"373
+[; ;SensorValoresExactos.c: 373:         _delay((unsigned long)((300)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"374
+[; ;SensorValoresExactos.c: 374:         INTCONbits.GIE = 0;
+[e = . . _INTCONbits 1 7 -> -> 0 `i `uc ]
+"375
+[; ;SensorValoresExactos.c: 375:         INTCONbits.TMR0IF = 0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"376
+[; ;SensorValoresExactos.c: 376:         Cronometro();
+[e ( _Cronometro ..  ]
+"377
+[; ;SensorValoresExactos.c: 377:     }
+}
+[e $U 665  ]
+"378
+[; ;SensorValoresExactos.c: 378:     else
+[e :U 664 ]
+"379
+[; ;SensorValoresExactos.c: 379:     {
+{
+"380
+[; ;SensorValoresExactos.c: 380:         PORTCbits.RC6 = 1;
+[e = . . _PORTCbits 0 6 -> -> 1 `i `uc ]
+"381
+[; ;SensorValoresExactos.c: 381:         _delay((unsigned long)((300)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"383
+[; ;SensorValoresExactos.c: 383:         putcm(0xC2);
+[e ( _putcm (1 -> -> 194 `i `uc ]
+"384
+[; ;SensorValoresExactos.c: 384:         printf(" Modo Alarma ");
+[e ( _printf :s 5C ]
+"385
+[; ;SensorValoresExactos.c: 385:         _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"387
+[; ;SensorValoresExactos.c: 387:         INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"388
+[; ;SensorValoresExactos.c: 388:         INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"389
+[; ;SensorValoresExactos.c: 389:         while(PORTAbits.RA1 == 1)
+[e $U 666  ]
+[e :U 667 ]
+"390
+[; ;SensorValoresExactos.c: 390:   {
+{
+"391
+[; ;SensorValoresExactos.c: 391:             back:
+[e :U 669 ]
+"393
+[; ;SensorValoresExactos.c: 393:             if(PORTAbits.RA3 == 1)
+[e $ ! == -> . . _PORTAbits 0 3 `i -> 1 `i 670  ]
+"394
+[; ;SensorValoresExactos.c: 394:    {
+{
+"395
+[; ;SensorValoresExactos.c: 395:                 DH = HORA / 10;
+[e = _DH / _HORA -> 10 `i ]
+"396
+[; ;SensorValoresExactos.c: 396:                 UH = HORA % 10;
+[e = _UH % _HORA -> 10 `i ]
+"397
+[; ;SensorValoresExactos.c: 397:                 _delay((unsigned long)((500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"398
+[; ;SensorValoresExactos.c: 398:                 HORA = HORA + 1;
+[e = _HORA + _HORA -> 1 `i ]
+"399
+[; ;SensorValoresExactos.c: 399:                 if(HORA > 23)
+[e $ ! > _HORA -> 23 `i 671  ]
+"400
+[; ;SensorValoresExactos.c: 400:                 {
+{
+"401
+[; ;SensorValoresExactos.c: 401:                     HORA=0;
+[e = _HORA -> 0 `i ]
+"402
+[; ;SensorValoresExactos.c: 402:                 }
+}
+[e :U 671 ]
+"403
+[; ;SensorValoresExactos.c: 403:                 goto back;
+[e $U 669  ]
+"404
+[; ;SensorValoresExactos.c: 404:             }
+}
+[e :U 670 ]
+"406
+[; ;SensorValoresExactos.c: 406:    if(PORTAbits.RA5 == 1)
+[e $ ! == -> . . _PORTAbits 0 5 `i -> 1 `i 672  ]
+"407
+[; ;SensorValoresExactos.c: 407:             {
+{
+"408
+[; ;SensorValoresExactos.c: 408:                 DM = MINUTO / 10;
+[e = _DM / _MINUTO -> 10 `i ]
+"409
+[; ;SensorValoresExactos.c: 409:                 UM = MINUTO % 10;
+[e = _UM % _MINUTO -> 10 `i ]
+"410
+[; ;SensorValoresExactos.c: 410:                 _delay((unsigned long)((500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"411
+[; ;SensorValoresExactos.c: 411:                 MINUTO = MINUTO + 1;
+[e = _MINUTO + _MINUTO -> 1 `i ]
+"412
+[; ;SensorValoresExactos.c: 412:                 if(MINUTO > 59)
+[e $ ! > _MINUTO -> 59 `i 673  ]
+"413
+[; ;SensorValoresExactos.c: 413:                 {
+{
+"414
+[; ;SensorValoresExactos.c: 414:                     MINUTO = 0;
+[e = _MINUTO -> 0 `i ]
+"415
+[; ;SensorValoresExactos.c: 415:                 }
+}
+[e :U 673 ]
+"416
+[; ;SensorValoresExactos.c: 416:                 goto back;
+[e $U 669  ]
+"417
+[; ;SensorValoresExactos.c: 417:             }
+}
+[e :U 672 ]
+"419
+[; ;SensorValoresExactos.c: 419:             if(HORA < 12)
+[e $ ! < _HORA -> 12 `i 674  ]
+"420
+[; ;SensorValoresExactos.c: 420:             {
+{
+"421
+[; ;SensorValoresExactos.c: 421:                 putcm(0xC2);
+[e ( _putcm (1 -> -> 194 `i `uc ]
+"422
+[; ;SensorValoresExactos.c: 422:                 printf("%d%d:%d%d:%d%d A.M",DH, UH, DM, UM, DS, US);
+[e ( _printf , , , , , , (. :s 6C _DH _UH _DM _UM _DS _US ]
+"423
+[; ;SensorValoresExactos.c: 423:             }
+}
+[e $U 675  ]
+"424
+[; ;SensorValoresExactos.c: 424:             else
+[e :U 674 ]
+"425
+[; ;SensorValoresExactos.c: 425:             {
+{
+"426
+[; ;SensorValoresExactos.c: 426:                 putcm(0xC2);
+[e ( _putcm (1 -> -> 194 `i `uc ]
+"427
+[; ;SensorValoresExactos.c: 427:                 printf("%d%d:%d%d:%d%d P.M",DH, UH, DM, UM, DS, US);
+[e ( _printf , , , , , , (. :s 7C _DH _UH _DM _UM _DS _US ]
+"428
+[; ;SensorValoresExactos.c: 428:             }
+}
+[e :U 675 ]
+"429
+[; ;SensorValoresExactos.c: 429:   }
+}
+[e :U 666 ]
+"389
+[; ;SensorValoresExactos.c: 389:         while(PORTAbits.RA1 == 1)
+[e $ == -> . . _PORTAbits 0 1 `i -> 1 `i 667  ]
+[e :U 668 ]
+"430
+[; ;SensorValoresExactos.c: 430:   DS = 0;
+[e = _DS -> 0 `i ]
+"431
+[; ;SensorValoresExactos.c: 431:   US = 0;
+[e = _US -> 0 `i ]
+"433
+[; ;SensorValoresExactos.c: 433:         INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"434
+[; ;SensorValoresExactos.c: 434:         INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"435
+[; ;SensorValoresExactos.c: 435:     }
+}
+[e :U 665 ]
+"436
+[; ;SensorValoresExactos.c: 436: }
+[e :UE 663 ]
+}
+"440
+[; ;SensorValoresExactos.c: 440: void Alarma_LED(void)
+[v _Alarma_LED `(v ~T0 @X0 1 ef ]
+"441
+[; ;SensorValoresExactos.c: 441: {
+{
+[e :U _Alarma_LED ]
+[f ]
+"445
+[; ;SensorValoresExactos.c: 445:     if(DH == Decenas_Horas && UH == Unidades_Horas && DM == Decenas_Minutos && UM == Unidades_Minutos && DS == Decenas_Segundos && US == Unidades_Segundos)
+[e $ ! && && && && && == _DH _Decenas_Horas == _UH _Unidades_Horas == _DM _Decenas_Minutos == _UM _Unidades_Minutos == _DS _Decenas_Segundos == _US _Unidades_Segundos 677  ]
+"446
+[; ;SensorValoresExactos.c: 446:     {
+{
+"447
+[; ;SensorValoresExactos.c: 447:         char A = 10;
+[v _A `uc ~T0 @X0 1 a ]
+[e = _A -> -> 10 `i `uc ]
+"448
+[; ;SensorValoresExactos.c: 448:         while(A)
+[e $U 678  ]
+[e :U 679 ]
+"449
+[; ;SensorValoresExactos.c: 449:         {
+{
+"450
+[; ;SensorValoresExactos.c: 450:             PORTB = 0xFF;
+[e = _PORTB -> -> 255 `i `uc ]
+"451
+[; ;SensorValoresExactos.c: 451:             _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"452
+[; ;SensorValoresExactos.c: 452:             PORTB = 0x00;
+[e = _PORTB -> -> 0 `i `uc ]
+"453
+[; ;SensorValoresExactos.c: 453:             _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"454
+[; ;SensorValoresExactos.c: 454:             A -= 1;
+[e =- _A -> -> 1 `i `uc ]
+"455
+[; ;SensorValoresExactos.c: 455:         }
+}
+[e :U 678 ]
+"448
+[; ;SensorValoresExactos.c: 448:         while(A)
+[e $ != -> _A `i -> 0 `i 679  ]
+[e :U 680 ]
+"456
+[; ;SensorValoresExactos.c: 456:     }
+}
+[e $U 681  ]
+"457
+[; ;SensorValoresExactos.c: 457:     else
+[e :U 677 ]
+"458
+[; ;SensorValoresExactos.c: 458:     {
+{
+"459
+[; ;SensorValoresExactos.c: 459:         PORTB = 0x00;
+[e = _PORTB -> -> 0 `i `uc ]
+"460
+[; ;SensorValoresExactos.c: 460:         _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"461
+[; ;SensorValoresExactos.c: 461:     }
+}
+[e :U 681 ]
+"462
+[; ;SensorValoresExactos.c: 462: }
+[e :UE 676 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"465
+[; ;SensorValoresExactos.c: 465: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"466
+[; ;SensorValoresExactos.c: 466: {
+{
+[e :U _main ]
+[f ]
+"467
+[; ;SensorValoresExactos.c: 467:  Configuracion();
+[e ( _Configuracion ..  ]
+"469
+[; ;SensorValoresExactos.c: 469:     Timer0Configuration();
+[e ( _Timer0Configuration ..  ]
+"471
+[; ;SensorValoresExactos.c: 471:     InicializaLCD();
+[e ( _InicializaLCD ..  ]
+"472
+[; ;SensorValoresExactos.c: 472:     LCD_COMANDOS(1);
+[e ( _LCD_COMANDOS (1 -> -> 1 `i `uc ]
+"473
+[; ;SensorValoresExactos.c: 473:     LCD_COMANDOS(12);
+[e ( _LCD_COMANDOS (1 -> -> 12 `i `uc ]
+"476
+[; ;SensorValoresExactos.c: 476:     horas = 12;
+[e = _horas -> 12 `i ]
+"477
+[; ;SensorValoresExactos.c: 477:  minutos = 59;
+[e = _minutos -> 59 `i ]
+"478
+[; ;SensorValoresExactos.c: 478:  segundos = 50;
+[e = _segundos -> 50 `i ]
+"480
+[; ;SensorValoresExactos.c: 480:  while(1)
+[e :U 684 ]
+"481
+[; ;SensorValoresExactos.c: 481:  {
+{
+"482
+[; ;SensorValoresExactos.c: 482:         SensorLM35();
+[e ( _SensorLM35 ..  ]
+"487
+[; ;SensorValoresExactos.c: 487:         Alarma();
+[e ( _Alarma ..  ]
+"489
+[; ;SensorValoresExactos.c: 489:         Alarma_LED();
+[e ( _Alarma_LED ..  ]
+"490
+[; ;SensorValoresExactos.c: 490:     }
+}
+[e :U 683 ]
+[e $U 684  ]
+[e :U 685 ]
+"492
+[; ;SensorValoresExactos.c: 492:     return;
+[e $UE 682  ]
+"493
+[; ;SensorValoresExactos.c: 493: }
+[e :UE 682 ]
+}
+[p f _printf 9437824 ]
+[p f _sprintf 9019392 ]
+[a 4C 37 100 37 100 58 37 100 37 100 58 37 100 37 100 32 80 46 77 0 ]
+[a 7C 37 100 37 100 58 37 100 37 100 58 37 100 37 100 32 80 46 77 0 ]
+[a 3C 37 100 37 100 58 37 100 37 100 58 37 100 37 100 32 65 46 77 0 ]
+[a 6C 37 100 37 100 58 37 100 37 100 58 37 100 37 100 32 65 46 77 0 ]
+[a 1C 84 101 109 112 46 32 61 32 37 51 46 50 102 32 37 99 67 0 ]
+[a 2C 84 101 109 112 46 32 61 32 37 51 46 50 102 32 37 99 67 0 ]
+[a 5C 32 77 111 100 111 32 65 108 97 114 109 97 32 0 ]
