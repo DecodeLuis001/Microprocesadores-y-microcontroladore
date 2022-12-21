@@ -1,0 +1,1591 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"9713 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18F45K50.h
+[s S431 :2 `uc 1 :2 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S431 . NVCFG PVCFG . TRIGSEL ]
+"9719
+[s S432 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S432 . NVCFG0 NVCFG1 PVCFG0 PVCFG1 ]
+"9725
+[s S433 :3 `uc 1 :1 `uc 1 ]
+[n S433 . . CHSN3 ]
+"9712
+[u S430 `S431 1 `S432 1 `S433 1 ]
+[n S430 . . . . ]
+"9730
+[v _ADCON1bits `VS430 ~T0 @X0 0 e@4033 ]
+"9781
+[s S435 :1 `uc 1 :1 `uc 1 ]
+[n S435 . . GO_NOT_DONE ]
+"9785
+[s S436 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S436 . ADON GO_nDONE CHS ]
+"9790
+[s S437 :1 `uc 1 :1 `uc 1 ]
+[n S437 . . DONE ]
+"9794
+[s S438 :1 `uc 1 :1 `uc 1 ]
+[n S438 . . GO ]
+"9798
+[s S439 :1 `uc 1 :1 `uc 1 ]
+[n S439 . . NOT_DONE ]
+"9802
+[s S440 :1 `uc 1 :1 `uc 1 ]
+[n S440 . . nDONE ]
+"9806
+[s S441 :1 `uc 1 :1 `uc 1 ]
+[n S441 . . GODONE ]
+"9810
+[s S442 :1 `uc 1 :1 `uc 1 ]
+[n S442 . . GO_DONE ]
+"9780
+[u S434 `S435 1 `S436 1 `S437 1 `S438 1 `S439 1 `S440 1 `S441 1 `S442 1 ]
+[n S434 . . . . . . . . . ]
+"9815
+[v _ADCON0bits `VS434 ~T0 @X0 0 e@4034 ]
+"9775
+[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"9636
+[v _ADCON2 `Vuc ~T0 @X0 0 e@4032 ]
+"9870
+[v _ADRESL `Vuc ~T0 @X0 0 e@4035 ]
+"9877
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
+"4626
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
+"5248
+[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
+"12356
+[v _OSCCON `Vuc ~T0 @X0 0 e@4051 ]
+"238
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . ANSA0 ANSA1 ANSA2 ANSA3 . ANSA5 ]
+"237
+[u S15 `S16 1 ]
+[n S15 . . ]
+"247
+[v _ANSELAbits `VS15 ~T0 @X0 0 e@3931 ]
+"5081
+[s S207 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S207 . TRISC0 TRISC1 TRISC2 . TRISC4 TRISC5 TRISC6 TRISC7 ]
+"5091
+[s S208 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S208 . RC0 RC1 RC2 . RC6 RC7 ]
+"5080
+[u S206 `S207 1 `S208 1 ]
+[n S206 . . . ]
+"5100
+[v _TRISCbits `VS206 ~T0 @X0 0 e@3988 ]
+"333
+[s S20 :2 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S20 . . ANSC2 . ANSC6 ANSC7 ]
+"332
+[u S19 `S20 1 ]
+[n S19 . . ]
+"341
+[v _ANSELCbits `VS19 ~T0 @X0 0 e@3933 ]
+"4009
+[s S170 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S170 . LATC0 LATC1 LATC2 . LATC4 LATC5 LATC6 LATC7 ]
+"4019
+[s S171 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S171 . LC0 LC1 LC2 . LC4 LC5 LC6 LC7 ]
+"4008
+[u S169 `S170 1 `S171 1 ]
+[n S169 . . . ]
+"4030
+[v _LATCbits `VS169 ~T0 @X0 0 e@3979 ]
+"4848
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"277
+[v _ANSELB `Vuc ~T0 @X0 0 e@3932 ]
+"3891
+[v _LATB `Vuc ~T0 @X0 0 e@3978 ]
+"4111
+[s S173 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S173 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
+"4121
+[s S174 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S174 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
+"4110
+[u S172 `S173 1 `S174 1 ]
+[n S172 . . . ]
+"4132
+[v _LATDbits `VS172 ~T0 @X0 0 e@3980 ]
+[v F4805 `(v ~T0 @X0 1 tf1`ul ]
+"203 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\pic18.h
+[v __delay `JF4805 ~T0 @X0 0 e ]
+[p i __delay ]
+"4105 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18F45K50.h
+[v _LATD `Vuc ~T0 @X0 0 e@3980 ]
+"113 C:\Program Files\Microchip\xc8\v2.31\pic\include\c99\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"111
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"12445 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18F45K50.h
+[s S557 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S557 . T0PS PSA T0SE T0CS T08BIT TMR0ON ]
+"12453
+[s S558 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S558 . T0PS0 T0PS1 T0PS2 ]
+"12444
+[u S556 `S557 1 `S558 1 ]
+[n S556 . . . ]
+"12459
+[v _T0CONbits `VS556 ~T0 @X0 0 e@4053 ]
+"12516
+[v _TMR0L `Vuc ~T0 @X0 0 e@4054 ]
+"13231
+[s S612 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S612 . IOCIF INT0IF TMR0IF IOCIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"13241
+[s S613 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S613 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"13251
+[s S614 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S614 . . GIEL GIEH ]
+"13230
+[u S611 `S612 1 `S613 1 `S614 1 ]
+[n S611 . . . . ]
+"13257
+[v _INTCONbits `VS611 ~T0 @X0 0 e@4082 ]
+"2907
+[s S129 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S129 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"2917
+[s S130 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S130 . AN0 AN1 AN2 AN3 T0CKI AN4 OSC2 ]
+"2926
+[s S131 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S131 . . VREFM VREFP . LVDIN ]
+"2933
+[s S132 :5 `uc 1 :1 `uc 1 ]
+[n S132 . . HLVDIN ]
+"2937
+[s S133 :1 `uc 1 :6 `uc 1 :1 `uc 1 ]
+[n S133 . ULPWUIN . RJPU ]
+"2906
+[u S128 `S129 1 `S130 1 `S131 1 `S132 1 `S133 1 ]
+[n S128 . . . . . . ]
+"2943
+[v _PORTAbits `VS128 ~T0 @X0 0 e@3968 ]
+"3169
+[s S139 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S139 . RC0 RC1 RC2 . RC4 RC5 RC6 RC7 ]
+"3179
+[s S140 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S140 . T1OSO T1OSI CCP1 . TX RX ]
+"3187
+[s S141 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S141 . T13CKI . P1A . CK DT ]
+"3195
+[s S142 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S142 . . CCP2 PA1 ]
+"3200
+[s S143 :1 `uc 1 :1 `uc 1 ]
+[n S143 . . PA2 ]
+"3168
+[u S138 `S139 1 `S140 1 `S141 1 `S142 1 `S143 1 ]
+[n S138 . . . . . . ]
+"3205
+[v _PORTCbits `VS138 ~T0 @X0 0 e@3970 ]
+"3053
+[v _PORTB `Vuc ~T0 @X0 0 e@3969 ]
+[p mainexit ]
+"2 Funcional01.c
+[p x FOSC  =  INTOSCIO   ]
+"3
+[p x WDTEN  =  OFF       ]
+"4
+[p x MCLRE  =  ON        ]
+"5
+[p x LVP  =  OFF         ]
+"6
+[p x ICPRT  =  OFF       ]
+"9
+[p x CFGPLLEN  =  OFF    ]
+"12
+[p x FCMEN  =  OFF       ]
+"13
+[p x IESO  =  OFF        ]
+"16
+[p x nPWRTEN  =  OFF     ]
+"17
+[p x nLPBOR  =  OFF      ]
+"20
+[p x ICPRT  =  OFF       ]
+"21
+[p x XINST  =  OFF       ]
+"24
+[p x CP0  =  OFF         ]
+"25
+[p x CP1  =  OFF         ]
+"26
+[p x CP2  =  OFF         ]
+"27
+[p x CP3  =  OFF         ]
+"30
+[p x CPB  =  OFF         ]
+"31
+[p x CPD  =  OFF         ]
+"34
+[p x WRT0  =  OFF        ]
+"35
+[p x WRT1  =  OFF        ]
+"36
+[p x WRT2  =  OFF        ]
+"37
+[p x WRT3  =  OFF        ]
+"40
+[p x WRTC  =  OFF        ]
+"41
+[p x WRTB  =  OFF        ]
+"42
+[p x WRTD  =  OFF        ]
+"45
+[p x EBTR0  =  OFF       ]
+"46
+[p x EBTR1  =  OFF       ]
+"47
+[p x EBTR2  =  OFF       ]
+"48
+[p x EBTR3  =  OFF       ]
+"51
+[p x EBTRB  =  OFF       ]
+"54 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18F45K50.h
+[; <" SRCON1 equ 0F57h ;# ">
+"116
+[; <" SRCON0 equ 0F58h ;# ">
+"187
+[; <" CCPTMRS equ 0F59h ;# ">
+"214
+[; <" VREGCON equ 0F5Ah ;# ">
+"234
+[; <" ANSELA equ 0F5Bh ;# ">
+"279
+[; <" ANSELB equ 0F5Ch ;# ">
+"329
+[; <" ANSELC equ 0F5Dh ;# ">
+"363
+[; <" ANSELD equ 0F5Eh ;# ">
+"425
+[; <" ANSELE equ 0F5Fh ;# ">
+"457
+[; <" UCON equ 0F60h ;# ">
+"508
+[; <" USTAT equ 0F61h ;# ">
+"568
+[; <" UCFG equ 0F62h ;# ">
+"647
+[; <" UADDR equ 0F63h ;# ">
+"711
+[; <" UIE equ 0F64h ;# ">
+"767
+[; <" UIR equ 0F65h ;# ">
+"823
+[; <" UEIE equ 0F66h ;# ">
+"874
+[; <" UEIR equ 0F67h ;# ">
+"925
+[; <" UFRM equ 0F68h ;# ">
+"932
+[; <" UFRML equ 0F68h ;# ">
+"1010
+[; <" UFRMH equ 0F69h ;# ">
+"1050
+[; <" UEP0 equ 0F6Ah ;# ">
+"1158
+[; <" UEP1 equ 0F6Bh ;# ">
+"1266
+[; <" UEP2 equ 0F6Ch ;# ">
+"1374
+[; <" UEP3 equ 0F6Dh ;# ">
+"1482
+[; <" UEP4 equ 0F6Eh ;# ">
+"1590
+[; <" UEP5 equ 0F6Fh ;# ">
+"1698
+[; <" UEP6 equ 0F70h ;# ">
+"1806
+[; <" UEP7 equ 0F71h ;# ">
+"1914
+[; <" UEP8 equ 0F72h ;# ">
+"1990
+[; <" UEP9 equ 0F73h ;# ">
+"2066
+[; <" UEP10 equ 0F74h ;# ">
+"2142
+[; <" UEP11 equ 0F75h ;# ">
+"2218
+[; <" UEP12 equ 0F76h ;# ">
+"2294
+[; <" UEP13 equ 0F77h ;# ">
+"2370
+[; <" UEP14 equ 0F78h ;# ">
+"2446
+[; <" UEP15 equ 0F79h ;# ">
+"2522
+[; <" SLRCON equ 0F7Ah ;# ">
+"2566
+[; <" VREFCON2 equ 0F7Bh ;# ">
+"2618
+[; <" VREFCON1 equ 0F7Ch ;# ">
+"2679
+[; <" VREFCON0 equ 0F7Dh ;# ">
+"2739
+[; <" PMD0 equ 0F7Eh ;# ">
+"2821
+[; <" PMD1 equ 0F7Fh ;# ">
+"2903
+[; <" PORTA equ 0F80h ;# ">
+"3055
+[; <" PORTB equ 0F81h ;# ">
+"3165
+[; <" PORTC equ 0F82h ;# ">
+"3307
+[; <" PORTD equ 0F83h ;# ">
+"3428
+[; <" PORTE equ 0F84h ;# ">
+"3547
+[; <" WPUB equ 0F85h ;# ">
+"3609
+[; <" IOCB equ 0F86h ;# ">
+"3648
+[; <" IOCC equ 0F87h ;# ">
+"3705
+[; <" CTMUICON equ 0F88h ;# ">
+"3781
+[; <" LATA equ 0F89h ;# ">
+"3893
+[; <" LATB equ 0F8Ah ;# ">
+"4005
+[; <" LATC equ 0F8Bh ;# ">
+"4107
+[; <" LATD equ 0F8Ch ;# ">
+"4219
+[; <" LATE equ 0F8Dh ;# ">
+"4271
+[; <" CTMUCONL equ 0F8Eh ;# ">
+"4276
+[; <" CTMUCON1 equ 0F8Eh ;# ">
+"4425
+[; <" CTMUCONH equ 0F8Fh ;# ">
+"4430
+[; <" CTMUCON0 equ 0F8Fh ;# ">
+"4581
+[; <" CCPR2 equ 0F90h ;# ">
+"4588
+[; <" CCPR2L equ 0F90h ;# ">
+"4608
+[; <" CCPR2H equ 0F91h ;# ">
+"4628
+[; <" TRISA equ 0F92h ;# ">
+"4633
+[; <" DDRA equ 0F92h ;# ">
+"4850
+[; <" TRISB equ 0F93h ;# ">
+"4855
+[; <" DDRB equ 0F93h ;# ">
+"5072
+[; <" TRISC equ 0F94h ;# ">
+"5077
+[; <" DDRC equ 0F94h ;# ">
+"5250
+[; <" TRISD equ 0F95h ;# ">
+"5255
+[; <" DDRD equ 0F95h ;# ">
+"5472
+[; <" TRISE equ 0F96h ;# ">
+"5477
+[; <" DDRE equ 0F96h ;# ">
+"5588
+[; <" CCP2CON equ 0F97h ;# ">
+"5593
+[; <" ECCP2CON equ 0F97h ;# ">
+"5744
+[; <" CM1CON0 equ 0F98h ;# ">
+"5867
+[; <" CM2CON0 equ 0F99h ;# ">
+"5990
+[; <" CM2CON1 equ 0F9Ah ;# ">
+"6052
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"6122
+[; <" HLVDCON equ 0F9Ch ;# ">
+"6192
+[; <" PIE1 equ 0F9Dh ;# ">
+"6291
+[; <" PIR1 equ 0F9Eh ;# ">
+"6390
+[; <" IPR1 equ 0F9Fh ;# ">
+"6489
+[; <" PIE2 equ 0FA0h ;# ">
+"6588
+[; <" PIR2 equ 0FA1h ;# ">
+"6687
+[; <" IPR2 equ 0FA2h ;# ">
+"6786
+[; <" PIE3 equ 0FA3h ;# ">
+"6859
+[; <" PIR3 equ 0FA4h ;# ">
+"6906
+[; <" IPR3 equ 0FA5h ;# ">
+"6953
+[; <" EECON1 equ 0FA6h ;# ">
+"7019
+[; <" EECON2 equ 0FA7h ;# ">
+"7039
+[; <" EEDATA equ 0FA8h ;# ">
+"7046
+[; <" EEADR equ 0FA9h ;# ">
+"7053
+[; <" RCSTA1 equ 0FABh ;# ">
+"7058
+[; <" RCSTA equ 0FABh ;# ">
+"7259
+[; <" TXSTA1 equ 0FACh ;# ">
+"7264
+[; <" TXSTA equ 0FACh ;# ">
+"7553
+[; <" TXREG1 equ 0FADh ;# ">
+"7558
+[; <" TXREG equ 0FADh ;# ">
+"7591
+[; <" RCREG1 equ 0FAEh ;# ">
+"7596
+[; <" RCREG equ 0FAEh ;# ">
+"7629
+[; <" SPBRG1 equ 0FAFh ;# ">
+"7634
+[; <" SPBRG equ 0FAFh ;# ">
+"7767
+[; <" SPBRGH1 equ 0FB0h ;# ">
+"7772
+[; <" SPBRGH equ 0FB0h ;# ">
+"7905
+[; <" T3CON equ 0FB1h ;# ">
+"8034
+[; <" TMR3 equ 0FB2h ;# ">
+"8041
+[; <" TMR3L equ 0FB2h ;# ">
+"8061
+[; <" TMR3H equ 0FB3h ;# ">
+"8081
+[; <" T3GCON equ 0FB4h ;# ">
+"8212
+[; <" ACTCON equ 0FB5h ;# ">
+"8217
+[; <" STCON equ 0FB5h ;# ">
+"8418
+[; <" ECCP1AS equ 0FB6h ;# ">
+"8552
+[; <" PWM1CON equ 0FB7h ;# ">
+"8557
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"8702
+[; <" BAUDCON1 equ 0FB8h ;# ">
+"8707
+[; <" BAUDCON equ 0FB8h ;# ">
+"8711
+[; <" BAUDCTL equ 0FB8h ;# ">
+"9212
+[; <" PSTR1CON equ 0FB9h ;# ">
+"9288
+[; <" T2CON equ 0FBAh ;# ">
+"9359
+[; <" PR2 equ 0FBBh ;# ">
+"9379
+[; <" TMR2 equ 0FBCh ;# ">
+"9399
+[; <" CCP1CON equ 0FBDh ;# ">
+"9404
+[; <" ECCP1CON equ 0FBDh ;# ">
+"9591
+[; <" CCPR1 equ 0FBEh ;# ">
+"9598
+[; <" CCPR1L equ 0FBEh ;# ">
+"9618
+[; <" CCPR1H equ 0FBFh ;# ">
+"9638
+[; <" ADCON2 equ 0FC0h ;# ">
+"9709
+[; <" ADCON1 equ 0FC1h ;# ">
+"9777
+[; <" ADCON0 equ 0FC2h ;# ">
+"9872
+[; <" ADRESL equ 0FC3h ;# ">
+"9879
+[; <" ADRESH equ 0FC4h ;# ">
+"9886
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"9891
+[; <" SSPCON2 equ 0FC5h ;# ">
+"10240
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"10245
+[; <" SSPCON equ 0FC6h ;# ">
+"10249
+[; <" SSPCON1 equ 0FC6h ;# ">
+"10594
+[; <" SSP1STAT equ 0FC7h ;# ">
+"10599
+[; <" SSPSTAT equ 0FC7h ;# ">
+"11192
+[; <" SSP1ADD equ 0FC8h ;# ">
+"11197
+[; <" SSPADD equ 0FC8h ;# ">
+"11530
+[; <" SSP1BUF equ 0FC9h ;# ">
+"11535
+[; <" SSPBUF equ 0FC9h ;# ">
+"11568
+[; <" SSP1MSK equ 0FCAh ;# ">
+"11573
+[; <" SSPMSK equ 0FCAh ;# ">
+"11706
+[; <" SSP1CON3 equ 0FCBh ;# ">
+"11711
+[; <" SSPCON3 equ 0FCBh ;# ">
+"11828
+[; <" T1GCON equ 0FCCh ;# ">
+"11959
+[; <" T1CON equ 0FCDh ;# ">
+"12088
+[; <" TMR1 equ 0FCEh ;# ">
+"12095
+[; <" TMR1L equ 0FCEh ;# ">
+"12115
+[; <" TMR1H equ 0FCFh ;# ">
+"12135
+[; <" RCON equ 0FD0h ;# ">
+"12268
+[; <" WDTCON equ 0FD1h ;# ">
+"12296
+[; <" OSCCON2 equ 0FD2h ;# ">
+"12358
+[; <" OSCCON equ 0FD3h ;# ">
+"12441
+[; <" T0CON equ 0FD5h ;# ">
+"12511
+[; <" TMR0 equ 0FD6h ;# ">
+"12518
+[; <" TMR0L equ 0FD6h ;# ">
+"12538
+[; <" TMR0H equ 0FD7h ;# ">
+"12558
+[; <" STATUS equ 0FD8h ;# ">
+"12629
+[; <" FSR2 equ 0FD9h ;# ">
+"12636
+[; <" FSR2L equ 0FD9h ;# ">
+"12656
+[; <" FSR2H equ 0FDAh ;# ">
+"12663
+[; <" PLUSW2 equ 0FDBh ;# ">
+"12683
+[; <" PREINC2 equ 0FDCh ;# ">
+"12703
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"12723
+[; <" POSTINC2 equ 0FDEh ;# ">
+"12743
+[; <" INDF2 equ 0FDFh ;# ">
+"12763
+[; <" BSR equ 0FE0h ;# ">
+"12770
+[; <" FSR1 equ 0FE1h ;# ">
+"12777
+[; <" FSR1L equ 0FE1h ;# ">
+"12797
+[; <" FSR1H equ 0FE2h ;# ">
+"12804
+[; <" PLUSW1 equ 0FE3h ;# ">
+"12824
+[; <" PREINC1 equ 0FE4h ;# ">
+"12844
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"12864
+[; <" POSTINC1 equ 0FE6h ;# ">
+"12884
+[; <" INDF1 equ 0FE7h ;# ">
+"12904
+[; <" WREG equ 0FE8h ;# ">
+"12924
+[; <" FSR0 equ 0FE9h ;# ">
+"12931
+[; <" FSR0L equ 0FE9h ;# ">
+"12951
+[; <" FSR0H equ 0FEAh ;# ">
+"12958
+[; <" PLUSW0 equ 0FEBh ;# ">
+"12978
+[; <" PREINC0 equ 0FECh ;# ">
+"12998
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"13018
+[; <" POSTINC0 equ 0FEEh ;# ">
+"13038
+[; <" INDF0 equ 0FEFh ;# ">
+"13058
+[; <" INTCON3 equ 0FF0h ;# ">
+"13150
+[; <" INTCON2 equ 0FF1h ;# ">
+"13227
+[; <" INTCON equ 0FF2h ;# ">
+"13344
+[; <" PROD equ 0FF3h ;# ">
+"13351
+[; <" PRODL equ 0FF3h ;# ">
+"13371
+[; <" PRODH equ 0FF4h ;# ">
+"13391
+[; <" TABLAT equ 0FF5h ;# ">
+"13413
+[; <" TBLPTR equ 0FF6h ;# ">
+"13420
+[; <" TBLPTRL equ 0FF6h ;# ">
+"13440
+[; <" TBLPTRH equ 0FF7h ;# ">
+"13460
+[; <" TBLPTRU equ 0FF8h ;# ">
+"13469
+[; <" PCLAT equ 0FF9h ;# ">
+"13476
+[; <" PC equ 0FF9h ;# ">
+"13483
+[; <" PCL equ 0FF9h ;# ">
+"13503
+[; <" PCLATH equ 0FFAh ;# ">
+"13523
+[; <" PCLATU equ 0FFBh ;# ">
+"13530
+[; <" STKPTR equ 0FFCh ;# ">
+"13604
+[; <" TOS equ 0FFDh ;# ">
+"13611
+[; <" TOSL equ 0FFDh ;# ">
+"13631
+[; <" TOSH equ 0FFEh ;# ">
+"13651
+[; <" TOSU equ 0FFFh ;# ">
+"77 Funcional01.c
+[; ;Funcional01.c: 77: int ADC;
+[v _ADC `i ~T0 @X0 1 e ]
+"78
+[; ;Funcional01.c: 78: float R_LM35, R_CAD;
+[v _R_LM35 `f ~T0 @X0 1 e ]
+[v _R_CAD `f ~T0 @X0 1 e ]
+"79
+[; ;Funcional01.c: 79: float temperatura;
+[v _temperatura `f ~T0 @X0 1 e ]
+"80
+[; ;Funcional01.c: 80: char Valores[16];
+[v _Valores `uc ~T0 @X0 -> 16 `i e ]
+"83
+[; ;Funcional01.c: 83: int cambio;
+[v _cambio `i ~T0 @X0 1 e ]
+"84
+[; ;Funcional01.c: 84: int minutos, horas, segundos;
+[v _minutos `i ~T0 @X0 1 e ]
+[v _horas `i ~T0 @X0 1 e ]
+[v _segundos `i ~T0 @X0 1 e ]
+"86
+[; ;Funcional01.c: 86: int Unidades_Horas, Decenas_Horas, Unidades_Minutos, Decenas_Minutos, Unidades_Segundos, Decenas_Segundos;
+[v _Unidades_Horas `i ~T0 @X0 1 e ]
+[v _Decenas_Horas `i ~T0 @X0 1 e ]
+[v _Unidades_Minutos `i ~T0 @X0 1 e ]
+[v _Decenas_Minutos `i ~T0 @X0 1 e ]
+[v _Unidades_Segundos `i ~T0 @X0 1 e ]
+[v _Decenas_Segundos `i ~T0 @X0 1 e ]
+"89
+[; ;Funcional01.c: 89: int HORA, MINUTO, SEGUNDO;
+[v _HORA `i ~T0 @X0 1 e ]
+[v _MINUTO `i ~T0 @X0 1 e ]
+[v _SEGUNDO `i ~T0 @X0 1 e ]
+"90
+[; ;Funcional01.c: 90: int DH=0;
+[v _DH `i ~T0 @X0 1 e ]
+[i _DH
+-> 0 `i
+]
+"91
+[; ;Funcional01.c: 91: int UH=0;
+[v _UH `i ~T0 @X0 1 e ]
+[i _UH
+-> 0 `i
+]
+"92
+[; ;Funcional01.c: 92: int DM=0;
+[v _DM `i ~T0 @X0 1 e ]
+[i _DM
+-> 0 `i
+]
+"93
+[; ;Funcional01.c: 93: int UM=0;
+[v _UM `i ~T0 @X0 1 e ]
+[i _UM
+-> 0 `i
+]
+"94
+[; ;Funcional01.c: 94: int DS=0;
+[v _DS `i ~T0 @X0 1 e ]
+[i _DS
+-> 0 `i
+]
+"95
+[; ;Funcional01.c: 95: int US=0;
+[v _US `i ~T0 @X0 1 e ]
+[i _US
+-> 0 `i
+]
+"98
+[; ;Funcional01.c: 98: short Read_ADC(char canal)
+[v _Read_ADC `(s ~T0 @X0 1 ef1`uc ]
+"99
+[; ;Funcional01.c: 99: {
+{
+[e :U _Read_ADC ]
+"98
+[; ;Funcional01.c: 98: short Read_ADC(char canal)
+[v _canal `uc ~T0 @X0 1 r1 ]
+"99
+[; ;Funcional01.c: 99: {
+[f ]
+"101
+[; ;Funcional01.c: 101:     ADCON1bits.PVCFG = 0b00;
+[e = . . _ADCON1bits 0 1 -> -> 0 `i `uc ]
+"102
+[; ;Funcional01.c: 102:     ADCON1bits.NVCFG = 0b00;
+[e = . . _ADCON1bits 0 0 -> -> 0 `i `uc ]
+"104
+[; ;Funcional01.c: 104:  ADCON0bits.CHS = 0b00000;
+[e = . . _ADCON0bits 1 2 -> -> 0 `i `uc ]
+"105
+[; ;Funcional01.c: 105:  ADCON0bits.CHS = 0b00010;
+[e = . . _ADCON0bits 1 2 -> -> 2 `i `uc ]
+"107
+[; ;Funcional01.c: 107:  switch(canal)
+[e $U 640  ]
+"108
+[; ;Funcional01.c: 108:  {
+{
+"109
+[; ;Funcional01.c: 109:         case 0:
+[e :U 641 ]
+"110
+[; ;Funcional01.c: 110:             ADCON0 = 0b00000010;
+[e = _ADCON0 -> -> 2 `i `uc ]
+"115
+[; ;Funcional01.c: 115:             break;
+[e $U 639  ]
+"116
+[; ;Funcional01.c: 116:  }
+}
+[e $U 639  ]
+[e :U 640 ]
+[e [\ -> _canal `i , $ -> 0 `i 641
+ 639 ]
+[e :U 639 ]
+"121
+[; ;Funcional01.c: 121:  ADCON2 = 0b00100001;
+[e = _ADCON2 -> -> 33 `i `uc ]
+"135
+[; ;Funcional01.c: 135:  ADCON0bits.ADON = 1;
+[e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
+"137
+[; ;Funcional01.c: 137:     ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 3 1 -> -> 1 `i `uc ]
+"138
+[; ;Funcional01.c: 138:     while(ADCON0bits.GO);
+[e $U 642  ]
+[e :U 643 ]
+[e :U 642 ]
+[e $ != -> . . _ADCON0bits 3 1 `i -> 0 `i 643  ]
+[e :U 644 ]
+"140
+[; ;Funcional01.c: 140:     return ADRESL + ADRESH*256;
+[e ) -> + -> _ADRESL `i * -> _ADRESH `i -> 256 `i `s ]
+[e $UE 638  ]
+"146
+[; ;Funcional01.c: 146: }
+[e :UE 638 ]
+}
+"148
+[; ;Funcional01.c: 148: void Configuracion(void)
+[v _Configuracion `(v ~T0 @X0 1 ef ]
+"149
+[; ;Funcional01.c: 149: {
+{
+[e :U _Configuracion ]
+[f ]
+"157
+[; ;Funcional01.c: 157:     TRISA = 0b11111111;
+[e = _TRISA -> -> 255 `i `uc ]
+"158
+[; ;Funcional01.c: 158:  TRISD = 0b00000000;
+[e = _TRISD -> -> 0 `i `uc ]
+"162
+[; ;Funcional01.c: 162:     OSCCON = 0b01101100;
+[e = _OSCCON -> -> 108 `i `uc ]
+"170
+[; ;Funcional01.c: 170:     ANSELAbits.ANSA3 = 0;
+[e = . . _ANSELAbits 0 3 -> -> 0 `i `uc ]
+"171
+[; ;Funcional01.c: 171:     ANSELAbits.ANSA1 = 0;
+[e = . . _ANSELAbits 0 1 -> -> 0 `i `uc ]
+"172
+[; ;Funcional01.c: 172:     ANSELAbits.ANSA5 = 0;
+[e = . . _ANSELAbits 0 5 -> -> 0 `i `uc ]
+"173
+[; ;Funcional01.c: 173:     TRISCbits.RC6 = 0;
+[e = . . _TRISCbits 1 4 -> -> 0 `i `uc ]
+"174
+[; ;Funcional01.c: 174:     ANSELCbits.ANSC6 = 0;
+[e = . . _ANSELCbits 0 3 -> -> 0 `i `uc ]
+"175
+[; ;Funcional01.c: 175:     LATCbits.LATC6=0;
+[e = . . _LATCbits 0 6 -> -> 0 `i `uc ]
+"178
+[; ;Funcional01.c: 178:     TRISB = 0;
+[e = _TRISB -> -> 0 `i `uc ]
+"179
+[; ;Funcional01.c: 179:     ANSELB = 0;
+[e = _ANSELB -> -> 0 `i `uc ]
+"180
+[; ;Funcional01.c: 180:     LATB = 0;
+[e = _LATB -> -> 0 `i `uc ]
+"181
+[; ;Funcional01.c: 181: }
+[e :UE 645 ]
+}
+"185
+[; ;Funcional01.c: 185: void Set_DATA()
+[v _Set_DATA `(v ~T0 @X0 1 ef ]
+"186
+[; ;Funcional01.c: 186: {
+{
+[e :U _Set_DATA ]
+[f ]
+"187
+[; ;Funcional01.c: 187:     LATDbits.LD2 = 1;
+[e = . . _LATDbits 1 2 -> -> 1 `i `uc ]
+"188
+[; ;Funcional01.c: 188:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"189
+[; ;Funcional01.c: 189:     LATDbits.LD2 = 0;
+[e = . . _LATDbits 1 2 -> -> 0 `i `uc ]
+"191
+[; ;Funcional01.c: 191:     return;
+[e $UE 646  ]
+"192
+[; ;Funcional01.c: 192: }
+[e :UE 646 ]
+}
+"195
+[; ;Funcional01.c: 195: void Get_DATA(char data)
+[v _Get_DATA `(v ~T0 @X0 1 ef1`uc ]
+"196
+[; ;Funcional01.c: 196: {
+{
+[e :U _Get_DATA ]
+"195
+[; ;Funcional01.c: 195: void Get_DATA(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"196
+[; ;Funcional01.c: 196: {
+[f ]
+"197
+[; ;Funcional01.c: 197:     LATDbits.LD4 = data;
+[e = . . _LATDbits 1 4 -> _data `uc ]
+"198
+[; ;Funcional01.c: 198:     LATDbits.LD5 = data >> 1;
+[e = . . _LATDbits 1 5 -> >> -> _data `i -> 1 `i `uc ]
+"199
+[; ;Funcional01.c: 199:     LATDbits.LD6 = data >> 2;
+[e = . . _LATDbits 1 6 -> >> -> _data `i -> 2 `i `uc ]
+"200
+[; ;Funcional01.c: 200:     LATDbits.LD7 = data >> 3;
+[e = . . _LATDbits 1 7 -> >> -> _data `i -> 3 `i `uc ]
+"202
+[; ;Funcional01.c: 202:     Set_DATA();
+[e ( _Set_DATA ..  ]
+"203
+[; ;Funcional01.c: 203:     return;
+[e $UE 647  ]
+"204
+[; ;Funcional01.c: 204: }
+[e :UE 647 ]
+}
+"207
+[; ;Funcional01.c: 207: void LCD_COMANDOS(char comando)
+[v _LCD_COMANDOS `(v ~T0 @X0 1 ef1`uc ]
+"208
+[; ;Funcional01.c: 208: {
+{
+[e :U _LCD_COMANDOS ]
+"207
+[; ;Funcional01.c: 207: void LCD_COMANDOS(char comando)
+[v _comando `uc ~T0 @X0 1 r1 ]
+"208
+[; ;Funcional01.c: 208: {
+[f ]
+"209
+[; ;Funcional01.c: 209:     LATDbits.LD0 = 0;
+[e = . . _LATDbits 1 0 -> -> 0 `i `uc ]
+"210
+[; ;Funcional01.c: 210:     Get_DATA((comando >> 4)&0b00001111);
+[e ( _Get_DATA (1 -> & >> -> _comando `i -> 4 `i -> 15 `i `uc ]
+"211
+[; ;Funcional01.c: 211:     Get_DATA((comando)&0b00001111);
+[e ( _Get_DATA (1 -> & -> _comando `i -> 15 `i `uc ]
+"213
+[; ;Funcional01.c: 213:     return;
+[e $UE 648  ]
+"214
+[; ;Funcional01.c: 214: }
+[e :UE 648 ]
+}
+"216
+[; ;Funcional01.c: 216: void putch(char data)
+[v _putch `(v ~T0 @X0 1 ef1`uc ]
+"217
+[; ;Funcional01.c: 217: {
+{
+[e :U _putch ]
+"216
+[; ;Funcional01.c: 216: void putch(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"217
+[; ;Funcional01.c: 217: {
+[f ]
+"218
+[; ;Funcional01.c: 218:     char Activa;
+[v _Activa `uc ~T0 @X0 1 a ]
+"219
+[; ;Funcional01.c: 219:     Activa = data & 0xF0;
+[e = _Activa -> & -> _data `i -> 240 `i `uc ]
+"220
+[; ;Funcional01.c: 220:     LATD = Activa | 0x05;
+[e = _LATD -> | -> _Activa `i -> 5 `i `uc ]
+"222
+[; ;Funcional01.c: 222:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"223
+[; ;Funcional01.c: 223:     LATD = Activa | 0x01;
+[e = _LATD -> | -> _Activa `i -> 1 `i `uc ]
+"225
+[; ;Funcional01.c: 225:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"226
+[; ;Funcional01.c: 226:     Activa = (unsigned char)(data << 4);
+[e = _Activa -> -> << -> _data `i -> 4 `i `uc `uc ]
+"227
+[; ;Funcional01.c: 227:     LATD = Activa | 0x05;
+[e = _LATD -> | -> _Activa `i -> 5 `i `uc ]
+"228
+[; ;Funcional01.c: 228:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"229
+[; ;Funcional01.c: 229:     LATD = Activa | 0x01;
+[e = _LATD -> | -> _Activa `i -> 1 `i `uc ]
+"230
+[; ;Funcional01.c: 230: }
+[e :UE 649 ]
+}
+"232
+[; ;Funcional01.c: 232: void putcm(char data)
+[v _putcm `(v ~T0 @X0 1 ef1`uc ]
+"233
+[; ;Funcional01.c: 233: {
+{
+[e :U _putcm ]
+"232
+[; ;Funcional01.c: 232: void putcm(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"233
+[; ;Funcional01.c: 233: {
+[f ]
+"234
+[; ;Funcional01.c: 234:     char Activa;
+[v _Activa `uc ~T0 @X0 1 a ]
+"235
+[; ;Funcional01.c: 235:     Activa = data & 0xF0;
+[e = _Activa -> & -> _data `i -> 240 `i `uc ]
+"236
+[; ;Funcional01.c: 236:     LATD = Activa | 0x04;
+[e = _LATD -> | -> _Activa `i -> 4 `i `uc ]
+"237
+[; ;Funcional01.c: 237:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"238
+[; ;Funcional01.c: 238:     LATD = Activa;
+[e = _LATD -> _Activa `uc ]
+"239
+[; ;Funcional01.c: 239:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"240
+[; ;Funcional01.c: 240:     Activa = (unsigned char)(data << 4);
+[e = _Activa -> -> << -> _data `i -> 4 `i `uc `uc ]
+"241
+[; ;Funcional01.c: 241:     LATD = Activa | 0x04;
+[e = _LATD -> | -> _Activa `i -> 4 `i `uc ]
+"242
+[; ;Funcional01.c: 242:     _delay((unsigned long)((10)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"243
+[; ;Funcional01.c: 243:     LATD = Activa;
+[e = _LATD -> _Activa `uc ]
+"244
+[; ;Funcional01.c: 244: }
+[e :UE 650 ]
+}
+"246
+[; ;Funcional01.c: 246: void InicializaLCD(void)
+[v _InicializaLCD `(v ~T0 @X0 1 ef ]
+"247
+[; ;Funcional01.c: 247: {
+{
+[e :U _InicializaLCD ]
+[f ]
+"248
+[; ;Funcional01.c: 248:     _delay((unsigned long)((50)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"249
+[; ;Funcional01.c: 249:     putcm(0x02);
+[e ( _putcm (1 -> -> 2 `i `uc ]
+"250
+[; ;Funcional01.c: 250:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"252
+[; ;Funcional01.c: 252:     putcm(0x28);
+[e ( _putcm (1 -> -> 40 `i `uc ]
+"253
+[; ;Funcional01.c: 253:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"255
+[; ;Funcional01.c: 255:     putcm(0x2C);
+[e ( _putcm (1 -> -> 44 `i `uc ]
+"256
+[; ;Funcional01.c: 256:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"258
+[; ;Funcional01.c: 258:     putcm(0x0C);
+[e ( _putcm (1 -> -> 12 `i `uc ]
+"259
+[; ;Funcional01.c: 259:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"261
+[; ;Funcional01.c: 261:     putcm(0x06);
+[e ( _putcm (1 -> -> 6 `i `uc ]
+"262
+[; ;Funcional01.c: 262:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"264
+[; ;Funcional01.c: 264:     putcm(0x80);
+[e ( _putcm (1 -> -> 128 `i `uc ]
+"265
+[; ;Funcional01.c: 265:     _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"266
+[; ;Funcional01.c: 266: }
+[e :UE 651 ]
+}
+"270
+[; ;Funcional01.c: 270: void SensorLM35(void)
+[v _SensorLM35 `(v ~T0 @X0 1 ef ]
+"271
+[; ;Funcional01.c: 271: {
+{
+[e :U _SensorLM35 ]
+[f ]
+"274
+[; ;Funcional01.c: 274:     ADC = Read_ADC(0)/64;
+[e = _ADC / -> ( _Read_ADC (1 -> -> 0 `i `uc `i -> 64 `i ]
+"275
+[; ;Funcional01.c: 275:     R_LM35 = 500.10 / 1024;
+[e = _R_LM35 -> / .500.10 -> -> 1024 `i `d `f ]
+"279
+[; ;Funcional01.c: 279:     temperatura = ADC*R_LM35;
+[e = _temperatura * -> _ADC `f _R_LM35 ]
+"280
+[; ;Funcional01.c: 280:     putcm(0x80);
+[e ( _putcm (1 -> -> 128 `i `uc ]
+"281
+[; ;Funcional01.c: 281:     sprintf(Valores, "Temp. = %3.2f %cC",temperatura, 0xDF);
+[e ( _sprintf (1 , , (. , &U _Valores :s 1C -> _temperatura `d -> 223 `i ]
+"282
+[; ;Funcional01.c: 282:     _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"283
+[; ;Funcional01.c: 283:     printf(Valores);
+[e ( _printf -> &U _Valores `*Cuc ]
+"284
+[; ;Funcional01.c: 284: }
+[e :UE 652 ]
+}
+"290
+[; ;Funcional01.c: 290: void Timer0Configuration(void)
+[v _Timer0Configuration `(v ~T0 @X0 1 ef ]
+"291
+[; ;Funcional01.c: 291: {
+{
+[e :U _Timer0Configuration ]
+[f ]
+"292
+[; ;Funcional01.c: 292:     T0CONbits.T08BIT = 1;
+[e = . . _T0CONbits 0 4 -> -> 1 `i `uc ]
+"293
+[; ;Funcional01.c: 293:     T0CONbits.T0CS = 1;
+[e = . . _T0CONbits 0 3 -> -> 1 `i `uc ]
+"294
+[; ;Funcional01.c: 294:     T0CONbits.T0SE = 0;
+[e = . . _T0CONbits 0 2 -> -> 0 `i `uc ]
+"295
+[; ;Funcional01.c: 295:     T0CONbits.PSA = 1;
+[e = . . _T0CONbits 0 1 -> -> 1 `i `uc ]
+"296
+[; ;Funcional01.c: 296:     T0CONbits.T0PS = 0b000;
+[e = . . _T0CONbits 0 0 -> -> 0 `i `uc ]
+"298
+[; ;Funcional01.c: 298:     TMR0L = 0xFF;
+[e = _TMR0L -> -> 255 `i `uc ]
+"299
+[; ;Funcional01.c: 299:     T0CONbits.TMR0ON = 1;
+[e = . . _T0CONbits 0 5 -> -> 1 `i `uc ]
+"302
+[; ;Funcional01.c: 302:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"303
+[; ;Funcional01.c: 303:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"304
+[; ;Funcional01.c: 304:     INTCONbits.TMR0IE = 1;
+[e = . . _INTCONbits 0 5 -> -> 1 `i `uc ]
+"305
+[; ;Funcional01.c: 305:     INTCONbits.TMR0IF =0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"306
+[; ;Funcional01.c: 306: }
+[e :UE 653 ]
+}
+"308
+[; ;Funcional01.c: 308: void Mostrar_Reloj()
+[v _Mostrar_Reloj `(v ~T0 @X0 1 ef ]
+"309
+[; ;Funcional01.c: 309: {
+{
+[e :U _Mostrar_Reloj ]
+[f ]
+"311
+[; ;Funcional01.c: 311:  Decenas_Horas = horas / 10;
+[e = _Decenas_Horas / _horas -> 10 `i ]
+"312
+[; ;Funcional01.c: 312:  Unidades_Horas = horas % 10;
+[e = _Unidades_Horas % _horas -> 10 `i ]
+"313
+[; ;Funcional01.c: 313:  Decenas_Minutos = minutos / 10;
+[e = _Decenas_Minutos / _minutos -> 10 `i ]
+"314
+[; ;Funcional01.c: 314:  Unidades_Minutos = minutos % 10;
+[e = _Unidades_Minutos % _minutos -> 10 `i ]
+"315
+[; ;Funcional01.c: 315:  Decenas_Segundos = segundos / 10;
+[e = _Decenas_Segundos / _segundos -> 10 `i ]
+"316
+[; ;Funcional01.c: 316:  Unidades_Segundos = segundos % 10;
+[e = _Unidades_Segundos % _segundos -> 10 `i ]
+"319
+[; ;Funcional01.c: 319:  putcm(0xC0);
+[e ( _putcm (1 -> -> 192 `i `uc ]
+"320
+[; ;Funcional01.c: 320:  printf("RELOJ:  %d%d:%d%d:%d%d",Decenas_Horas, Unidades_Horas, Decenas_Minutos, Unidades_Minutos, Decenas_Segundos, Unidades_Segundos);
+[e ( _printf , , , , , , (. :s 2C _Decenas_Horas _Unidades_Horas _Decenas_Minutos _Unidades_Minutos _Decenas_Segundos _Unidades_Segundos ]
+"332
+[; ;Funcional01.c: 332: }
+[e :UE 654 ]
+}
+"334
+[; ;Funcional01.c: 334: void Cronometro()
+[v _Cronometro `(v ~T0 @X0 1 ef ]
+"335
+[; ;Funcional01.c: 335: {
+{
+[e :U _Cronometro ]
+[f ]
+"336
+[; ;Funcional01.c: 336:     Mostrar_Reloj();
+[e ( _Mostrar_Reloj ..  ]
+"337
+[; ;Funcional01.c: 337:     segundos = segundos + 1;
+[e = _segundos + _segundos -> 1 `i ]
+"338
+[; ;Funcional01.c: 338:  if(segundos > 59)
+[e $ ! > _segundos -> 59 `i 656  ]
+"339
+[; ;Funcional01.c: 339:  {
+{
+"340
+[; ;Funcional01.c: 340:   segundos = 0;
+[e = _segundos -> 0 `i ]
+"341
+[; ;Funcional01.c: 341:   minutos = minutos + 1;
+[e = _minutos + _minutos -> 1 `i ]
+"342
+[; ;Funcional01.c: 342:   if(minutos > 59)
+[e $ ! > _minutos -> 59 `i 657  ]
+"343
+[; ;Funcional01.c: 343:   {
+{
+"344
+[; ;Funcional01.c: 344:    minutos = 0;
+[e = _minutos -> 0 `i ]
+"345
+[; ;Funcional01.c: 345:    horas = horas + 1;
+[e = _horas + _horas -> 1 `i ]
+"346
+[; ;Funcional01.c: 346:    if(horas > 23)
+[e $ ! > _horas -> 23 `i 658  ]
+"347
+[; ;Funcional01.c: 347:    {
+{
+"348
+[; ;Funcional01.c: 348:     horas=0;
+[e = _horas -> 0 `i ]
+"349
+[; ;Funcional01.c: 349:             }
+}
+[e :U 658 ]
+"350
+[; ;Funcional01.c: 350:   }
+}
+[e :U 657 ]
+"351
+[; ;Funcional01.c: 351:  }
+}
+[e :U 656 ]
+"352
+[; ;Funcional01.c: 352:     TMR0L = 0xFF;
+[e = _TMR0L -> -> 255 `i `uc ]
+"355
+[; ;Funcional01.c: 355:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"356
+[; ;Funcional01.c: 356:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"357
+[; ;Funcional01.c: 357:     _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"358
+[; ;Funcional01.c: 358: }
+[e :UE 655 ]
+}
+"362
+[; ;Funcional01.c: 362: void Alarma()
+[v _Alarma `(v ~T0 @X0 1 ef ]
+"363
+[; ;Funcional01.c: 363: {
+{
+[e :U _Alarma ]
+[f ]
+"364
+[; ;Funcional01.c: 364:     if(PORTAbits.RA1 == 0)
+[e $ ! == -> . . _PORTAbits 0 1 `i -> 0 `i 660  ]
+"365
+[; ;Funcional01.c: 365:     {
+{
+"366
+[; ;Funcional01.c: 366:         PORTCbits.RC6 = 0;
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+"367
+[; ;Funcional01.c: 367:         _delay((unsigned long)((300)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"368
+[; ;Funcional01.c: 368:         INTCONbits.GIE = 0;
+[e = . . _INTCONbits 1 7 -> -> 0 `i `uc ]
+"369
+[; ;Funcional01.c: 369:         INTCONbits.TMR0IF = 0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"370
+[; ;Funcional01.c: 370:         Cronometro();
+[e ( _Cronometro ..  ]
+"371
+[; ;Funcional01.c: 371:     }
+}
+[e $U 661  ]
+"372
+[; ;Funcional01.c: 372:     else
+[e :U 660 ]
+"373
+[; ;Funcional01.c: 373:     {
+{
+"374
+[; ;Funcional01.c: 374:         PORTCbits.RC6 = 1;
+[e = . . _PORTCbits 0 6 -> -> 1 `i `uc ]
+"375
+[; ;Funcional01.c: 375:         _delay((unsigned long)((300)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"377
+[; ;Funcional01.c: 377:         putcm(0xC0);
+[e ( _putcm (1 -> -> 192 `i `uc ]
+"378
+[; ;Funcional01.c: 378:         printf(" !!Modo Alarma!! ");
+[e ( _printf :s 3C ]
+"379
+[; ;Funcional01.c: 379:         _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"381
+[; ;Funcional01.c: 381:         INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"382
+[; ;Funcional01.c: 382:         INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"383
+[; ;Funcional01.c: 383:         while(PORTAbits.RA1 == 1)
+[e $U 662  ]
+[e :U 663 ]
+"384
+[; ;Funcional01.c: 384:   {
+{
+"385
+[; ;Funcional01.c: 385:             if(PORTAbits.RA3 == 1)
+[e $ ! == -> . . _PORTAbits 0 3 `i -> 1 `i 665  ]
+"386
+[; ;Funcional01.c: 386:    {
+{
+"387
+[; ;Funcional01.c: 387:                 DH = HORA / 10;
+[e = _DH / _HORA -> 10 `i ]
+"388
+[; ;Funcional01.c: 388:                 UH = HORA % 10;
+[e = _UH % _HORA -> 10 `i ]
+"389
+[; ;Funcional01.c: 389:                 _delay((unsigned long)((500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"390
+[; ;Funcional01.c: 390:                 HORA = HORA + 1;
+[e = _HORA + _HORA -> 1 `i ]
+"391
+[; ;Funcional01.c: 391:                 if(HORA > 23)
+[e $ ! > _HORA -> 23 `i 666  ]
+"392
+[; ;Funcional01.c: 392:                 {
+{
+"393
+[; ;Funcional01.c: 393:                     HORA=0;
+[e = _HORA -> 0 `i ]
+"394
+[; ;Funcional01.c: 394:                 }
+}
+[e :U 666 ]
+"395
+[; ;Funcional01.c: 395:             }
+}
+[e :U 665 ]
+"397
+[; ;Funcional01.c: 397:    if(PORTAbits.RA5 == 1)
+[e $ ! == -> . . _PORTAbits 0 5 `i -> 1 `i 667  ]
+"398
+[; ;Funcional01.c: 398:             {
+{
+"399
+[; ;Funcional01.c: 399:                 DM = MINUTO / 10;
+[e = _DM / _MINUTO -> 10 `i ]
+"400
+[; ;Funcional01.c: 400:                 UM = MINUTO % 10;
+[e = _UM % _MINUTO -> 10 `i ]
+"401
+[; ;Funcional01.c: 401:                 _delay((unsigned long)((500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"402
+[; ;Funcional01.c: 402:                 MINUTO = MINUTO + 1;
+[e = _MINUTO + _MINUTO -> 1 `i ]
+"403
+[; ;Funcional01.c: 403:                 if(MINUTO > 59)
+[e $ ! > _MINUTO -> 59 `i 668  ]
+"404
+[; ;Funcional01.c: 404:                 {
+{
+"405
+[; ;Funcional01.c: 405:                     MINUTO = 0;
+[e = _MINUTO -> 0 `i ]
+"406
+[; ;Funcional01.c: 406:                 }
+}
+[e :U 668 ]
+"407
+[; ;Funcional01.c: 407:             }
+}
+[e :U 667 ]
+"409
+[; ;Funcional01.c: 409:             putcm(0xC0);
+[e ( _putcm (1 -> -> 192 `i `uc ]
+"410
+[; ;Funcional01.c: 410:             printf("Alarma: %d%d:%d%d:%d%d",DH, UH, DM, UM, DS, US);
+[e ( _printf , , , , , , (. :s 4C _DH _UH _DM _UM _DS _US ]
+"422
+[; ;Funcional01.c: 422:   }
+}
+[e :U 662 ]
+"383
+[; ;Funcional01.c: 383:         while(PORTAbits.RA1 == 1)
+[e $ == -> . . _PORTAbits 0 1 `i -> 1 `i 663  ]
+[e :U 664 ]
+"423
+[; ;Funcional01.c: 423:   DS = 0;
+[e = _DS -> 0 `i ]
+"424
+[; ;Funcional01.c: 424:   US = 0;
+[e = _US -> 0 `i ]
+"426
+[; ;Funcional01.c: 426:         INTCONbits.GIE = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"427
+[; ;Funcional01.c: 427:         INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"428
+[; ;Funcional01.c: 428:     }
+}
+[e :U 661 ]
+"429
+[; ;Funcional01.c: 429: }
+[e :UE 659 ]
+}
+"433
+[; ;Funcional01.c: 433: void Alarma_LED(void)
+[v _Alarma_LED `(v ~T0 @X0 1 ef ]
+"434
+[; ;Funcional01.c: 434: {
+{
+[e :U _Alarma_LED ]
+[f ]
+"438
+[; ;Funcional01.c: 438:     if(DH == Decenas_Horas && UH == Unidades_Horas && DM == Decenas_Minutos && UM == Unidades_Minutos && DS == Decenas_Segundos && US == Unidades_Segundos)
+[e $ ! && && && && && == _DH _Decenas_Horas == _UH _Unidades_Horas == _DM _Decenas_Minutos == _UM _Unidades_Minutos == _DS _Decenas_Segundos == _US _Unidades_Segundos 670  ]
+"439
+[; ;Funcional01.c: 439:     {
+{
+"440
+[; ;Funcional01.c: 440:         char A = 10;
+[v _A `uc ~T0 @X0 1 a ]
+[e = _A -> -> 10 `i `uc ]
+"441
+[; ;Funcional01.c: 441:         while(A)
+[e $U 671  ]
+[e :U 672 ]
+"442
+[; ;Funcional01.c: 442:         {
+{
+"443
+[; ;Funcional01.c: 443:             PORTB = 0xFF;
+[e = _PORTB -> -> 255 `i `uc ]
+"444
+[; ;Funcional01.c: 444:             _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"445
+[; ;Funcional01.c: 445:             PORTB = 0x00;
+[e = _PORTB -> -> 0 `i `uc ]
+"446
+[; ;Funcional01.c: 446:             _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"447
+[; ;Funcional01.c: 447:             A -= 1;
+[e =- _A -> -> 1 `i `uc ]
+"448
+[; ;Funcional01.c: 448:         }
+}
+[e :U 671 ]
+"441
+[; ;Funcional01.c: 441:         while(A)
+[e $ != -> _A `i -> 0 `i 672  ]
+[e :U 673 ]
+"449
+[; ;Funcional01.c: 449:     }
+}
+[e $U 674  ]
+"450
+[; ;Funcional01.c: 450:     else
+[e :U 670 ]
+"451
+[; ;Funcional01.c: 451:     {
+{
+"452
+[; ;Funcional01.c: 452:         PORTB = 0x00;
+[e = _PORTB -> -> 0 `i `uc ]
+"453
+[; ;Funcional01.c: 453:         _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"454
+[; ;Funcional01.c: 454:     }
+}
+[e :U 674 ]
+"455
+[; ;Funcional01.c: 455: }
+[e :UE 669 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"458
+[; ;Funcional01.c: 458: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"459
+[; ;Funcional01.c: 459: {
+{
+[e :U _main ]
+[f ]
+"460
+[; ;Funcional01.c: 460:  Configuracion();
+[e ( _Configuracion ..  ]
+"462
+[; ;Funcional01.c: 462:     Timer0Configuration();
+[e ( _Timer0Configuration ..  ]
+"464
+[; ;Funcional01.c: 464:     InicializaLCD();
+[e ( _InicializaLCD ..  ]
+"465
+[; ;Funcional01.c: 465:     LCD_COMANDOS(1);
+[e ( _LCD_COMANDOS (1 -> -> 1 `i `uc ]
+"466
+[; ;Funcional01.c: 466:     LCD_COMANDOS(12);
+[e ( _LCD_COMANDOS (1 -> -> 12 `i `uc ]
+"469
+[; ;Funcional01.c: 469:     horas = 12;
+[e = _horas -> 12 `i ]
+"470
+[; ;Funcional01.c: 470:  minutos = 59;
+[e = _minutos -> 59 `i ]
+"471
+[; ;Funcional01.c: 471:  segundos = 50;
+[e = _segundos -> 50 `i ]
+"473
+[; ;Funcional01.c: 473:  while(1)
+[e :U 677 ]
+"474
+[; ;Funcional01.c: 474:  {
+{
+"475
+[; ;Funcional01.c: 475:         SensorLM35();
+[e ( _SensorLM35 ..  ]
+"480
+[; ;Funcional01.c: 480:         Alarma();
+[e ( _Alarma ..  ]
+"482
+[; ;Funcional01.c: 482:         Alarma_LED();
+[e ( _Alarma_LED ..  ]
+"483
+[; ;Funcional01.c: 483:     }
+}
+[e :U 676 ]
+[e $U 677  ]
+[e :U 678 ]
+"485
+[; ;Funcional01.c: 485:     return;
+[e $UE 675  ]
+"486
+[; ;Funcional01.c: 486: }
+[e :UE 675 ]
+}
+[p f _sprintf 9019392 ]
+[p f _printf 9437824 ]
+[a 4C 65 108 97 114 109 97 58 32 37 100 37 100 58 37 100 37 100 58 37 100 37 100 0 ]
+[a 2C 82 69 76 79 74 58 32 32 37 100 37 100 58 37 100 37 100 58 37 100 37 100 0 ]
+[a 1C 84 101 109 112 46 32 61 32 37 51 46 50 102 32 37 99 67 0 ]
+[a 3C 32 33 33 77 111 100 111 32 65 108 97 114 109 97 33 33 32 0 ]
